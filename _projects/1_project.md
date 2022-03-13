@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Flow forming
+description: An update on the module
 img: assets/img/flow_forming.png
 importance: 1
 category: work

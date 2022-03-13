@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF), where I continue software development of the MoFEM library. \
+I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF), where I continue software development of the [MoFEM](http://mofem.eng.gla.ac.uk/) library. \
 My PhD project, supported by `Lord Kelvin and Adam Smith Scholarship`, was focused on computational methods to predict and prevent musculoskeletal injury and fatality in the Thoroughbred racehorse. 
 <!-- During my PhD, I also supported a project on modelling fracture in irradiated graphite bricks in Advanced Gas-Cooled Reactors in collaboration with industrial partners (EDF Energy and Jacobs). This work led to the submission of an `impact case to REF2021`. -->
 

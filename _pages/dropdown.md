@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: side projects
 nav: true
 dropdown: true
 children: 
