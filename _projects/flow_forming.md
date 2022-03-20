@@ -1,15 +1,20 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Flow forming
+description: An update on the module
+img: assets/img/main_projects/simple_flow_form.png
+importance: 1
+category: main
 ---
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
+
+
+[![Watch the video](https://img.youtube.com/vi/581MZC-hW0k/0.jpg)](https://youtu.be/581MZC-hW0k)
+
+[<img src="https://img.youtube.com/vi/581MZC-hW0k/maxresdefault.jpg" width="50%">](https://youtu.be/581MZC-hW0k)
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 

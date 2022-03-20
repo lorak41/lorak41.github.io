@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Flow forming
-description: An update on the module
-img: assets/img/flow_forming.png
-importance: 1
-category: work
+title: bone fracture
+description: My PhD project regarding bones fractures
+img: assets/img/main_projects/bone_implant.png
+importance: 2
+category: main
 ---
 
 Every project has a beautiful feature showcase page.

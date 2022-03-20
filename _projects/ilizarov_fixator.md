@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Ilizarov fixator system
+description: Continuation of work in biomechanics
+img: assets/img/side_projects/ilizarov.png
+importance: 3
+category: side
 ---
 
 Every project has a beautiful feature showcase page.

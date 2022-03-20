@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Topology optimisation
+description: My simple topology optimisation implementation in MoFEM
+img: assets/img/side_projects/topology_1.png
 importance: 3
-category: work
+category: side
 ---
 
 Every project has a beautiful feature showcase page.

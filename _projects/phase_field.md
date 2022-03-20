@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Phase field for fracture
+description: My implementation of phase field for brittle fracture
+img: assets/img/side_projects/phase_field1.png
+importance: 5
+category: side
 ---
 
 Every project has a beautiful feature showcase page.

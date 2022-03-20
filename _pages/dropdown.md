@@ -1,12 +1,18 @@
----
+<!-- ---
 layout: page
 title: side projects
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: 3D printing
+      permalink: /3d_printing/
     - title: divider
-    - title: projects
-      permalink: /projects/
----
+    - title: VR and AR
+      permalink: /vr-ar/
+    - title: divider
+    - title: 3D scanning
+      permalink: /3d_scanning/
+    - title: divider
+    - title: Baking
+      permalink: /baking/
+--- -->
