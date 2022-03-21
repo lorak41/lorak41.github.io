@@ -6,7 +6,7 @@ description: Link to my CV.
 nav: true
 display_categories:
 horizontal: false
-redirect: assets/pdf/Lewandowski_CVs.pdf
+# redirect: assets/pdf/Lewandowski_CVs.pdf
 ---
 
 <!-- [CV](/assets/pdf/Lewandowski_CVs.pdf) -->
@@ -24,7 +24,7 @@ nav: true
 <!-- <object data="../assets/pdf/example_pdf.pdf" width="1000" height="1000" type='application/pdf'></object> -->
 <!--  java script solution works for me :) -->
 
- <script type="text/javascript">
+<script type="text/javascript">
  document.location = "../assets/pdf/Lewandowski_CVs.pdf"
 </script>
 

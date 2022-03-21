@@ -8,3 +8,12 @@ categories: MoFEM
 img: assets/img/posts/coding_stock.jpg
 ---
 
+
+
+#### Modern C++17 standard features used by MoFEM
+
+* class template argument deduction
+* inline variable
+* initializers for `if` and `switch`
+* lambda capture of `this`
+* constexpr lambda
