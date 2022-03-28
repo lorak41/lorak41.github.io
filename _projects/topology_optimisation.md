@@ -3,7 +3,7 @@ layout: page
 title: Topology optimisation
 description: My simple topology optimisation implementation in MoFEM
 img: assets/img/side_projects/topology_1.png
-importance: 3
+importance: 7
 category: side
 ---
 

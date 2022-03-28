@@ -2,7 +2,7 @@
 layout: page
 title: MoFEM modules manager
 description: Generic interface for coupling MoFEM users modules
-img: assets/img/side_projects/modules_manager.png
+img: assets/img/side_projects/modules_manager3.png
 importance: 5
 category: side
 ---

@@ -3,7 +3,7 @@ layout: page
 title: Phase field for fracture
 description: My implementation of phase field for brittle fracture
 img: assets/img/side_projects/phase_field1.png
-importance: 5
+importance: 6
 category: side
 ---
 

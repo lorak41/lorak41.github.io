@@ -2,7 +2,7 @@
 layout: page
 title: bone fracture
 description: My PhD project regarding bones fractures
-img: assets/img/main_projects/bone_implant.png
+img: assets/img/main_projects/better_bone.png
 importance: 2
 category: main
 ---

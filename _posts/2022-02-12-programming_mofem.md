@@ -17,3 +17,11 @@ img: assets/img/posts/coding_stock.jpg
 * initializers for `if` and `switch`
 * lambda capture of `this`
 * constexpr lambda
+
+
+
+#### MoFEM features that distinguish it from other software like dealii, mfem, fenics, moose
+
+* flexibility
+* higher order approximation
+* ??? 

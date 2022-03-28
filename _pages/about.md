@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: MEng, MSc, PhD
+subtitle: MSc (Eng), PhD
 
 profile:
   align: right
