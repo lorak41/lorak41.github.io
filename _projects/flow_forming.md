@@ -7,35 +7,36 @@ importance: 1
 category: main
 ---
 
-
-<!-- ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif) -->
-
-<!-- [![homepage](assets/img/main_projects/gif_test.gif)](http://commonmark.org "Redirect to homepage") -->
-
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
-<!-- <iframe width="560"
+<iframe width="560"
         height="315"
         src="https://www.youtube.com/embed/581MZC-hW0k"
         frameborder="0"
         allow="autoplay; encrypted-media"
-        allowfullscreen></iframe> -->
+        allowfullscreen></iframe>
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/main_projects/gif_test.gif" url="http://jekyllrb.com" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/main_projects/gif_test.gif" url="http://jekyllrb.com" title="example image" class="img-fluid rounded z-depth-1" zoomable=false %}
     </div>
 </div>
 <div class="caption">
     This is a test gif.
 </div>
 
-<!-- [![Foo](assets/img/main_projects/gif_test.gif)](http://google.com/) -->
 
-<!-- [![Watch the video](https://img.youtube.com/vi/581MZC-hW0k/0.jpg)](https://youtu.be/581MZC-hW0k) -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/main_projects/gif_test.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    This is a test gif.
+</div>
 
 <!-- [<img src="https://img.youtube.com/vi/581MZC-hW0k/maxresdefault.jpg" width="50%">](https://youtu.be/581MZC-hW0k) -->
 
