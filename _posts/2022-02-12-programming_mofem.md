@@ -8,19 +8,55 @@ categories: MoFEM
 img: assets/img/posts/coding_stock.jpg
 ---
 
+An extensive list of C++ standards features can be found here [(Under this link)](https://github.com/AnthonyCalandra/modern-cpp-features#stdany). 
 
-
-#### Modern C++17 standard features used by MoFEM
+### Modern C++17 standard features used by MoFEM
 
 * class template argument deduction
 * inline variable
 * initializers for `if` and `switch`
 * lambda capture of `this`
-* constexpr lambda
+* `constexpr` lambda
 
 
+### Modern C++14 standard features used by MoFEM
 
-#### MoFEM features that distinguish it from other software like dealii, mfem, fenics, moose
+
+* binary literals
+* generic lambda expressions
+* lambda capture initializers
+* return type deduction
+
+```cpp
+    inline auto getBcEntsPtr() {
+      return boost::shared_ptr<Range>(shared_from_this(), &bcEnts);
+    }
+```
+
+{% highlight c++ linenos %}
+    inline auto getBcEntsPtr() {
+      return boost::shared_ptr<Range>(shared_from_this(), &bcEnts);
+    }
+{% endhighlight %}
+
+* decltype(auto)
+
+```cpp
+     auto dit = p_miit->numeredColDofsPtr->lower_bound(uid);
+     decltype(dit) hi_dit;
+```
+
+* relaxing constraints on constexpr functions
+* variable templates
+* [[deprecated]] attribute
+
+
+user-defined literals for standard library types
+compile-time integer sequences
+std::make_unique
+
+
+### MoFEM features that distinguish it from other software like dealii, mfem, fenics, moose
 
 * flexibility
 * higher order approximation

@@ -19,10 +19,19 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF), where I continue software development of the [MoFEM](http://mofem.eng.gla.ac.uk/) library. \
+I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF).
+
 My PhD project, supported by [Lord Kelvin and Adam Smith Scholarship](https://www.gla.ac.uk/research/ourresearchenvironment/prs/kelvinsmith/previouslyawardedkelvinsmithphdscholarships/201415projects/#d.en.359938,investigationoftheboneadaptationandfractureinthethirdmetacarpal(mciii)boneofthoroughbredracehorses-karollewandowski(lkasphdcandidate)), was focused on computational methods to predict and prevent musculoskeletal injury and fatality in the Thoroughbred racehorse. 
 
-My main interests are: `computational mechanics`, `additive manufacturing` technology, `virtual and augmented reality` scientific visualisation and sustainable `code development` (mostly `C++`). 
+My main interests are: `computational mechanics`, `additive manufacturing` technology, `virtual and augmented reality` scientific visualisation and sustainable `research code development` (mostly `C++`). 
+
+I am a senior developer of finite element library at the [MoFEM](http://mofem.eng.gla.ac.uk/) team.
+
+
+<!-- My research interests are on the development of novel approaches for numerical modelling in `computational mechanics` with a particular focus on biomechanics, fracture mechanics, modelling of complex manufacturing processes and `High Performance Computing`. 
+
+Aside from research, I am also interested in `additive manufacturing` technology, `virtual and augmented reality` scientific visualisation and sustainable `research code development` (mostly `C++`). -->
+
 
 <!-- During my PhD, I also supported a project on modelling fracture in irradiated graphite bricks in Advanced Gas-Cooled Reactors in collaboration with industrial partners (EDF Energy and Jacobs). This work led to the submission of an `impact case to REF2021`. -->
 

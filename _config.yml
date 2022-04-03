@@ -54,7 +54,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: lorak41
+# github_username: lorak41
 bitbucket_username: karol41
 gitlab_username: # your GitLab user name
 twitter_username: inz_KaroleL
@@ -73,7 +73,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  The best way to reach me is via email or Twitter.
+  The best way to reach me is via email or Twitter. I use mostly Bitbucket for my code development.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
