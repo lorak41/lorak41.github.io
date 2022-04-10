@@ -10,10 +10,12 @@ category: main
 
 
 Brittle fracture in nuclear graphite
-In this project, I am working on fracture in Nuclear-Graphite supported by EDF Energy. I develop theory, numerical methods and robust implementation for 3d crack propagation. 
+In this project, I was working on fracture in Nuclear-Graphite supported by EDF Energy. The research focused on establishing 3d crack propagation theory, numerical methods, and robust implementation.
 
 
+Although my PhD research was focused on bone fatigue fracture prevention, it has turned into contribution to assessing the structural integrity of nuclear power plants in the UK. I paused my PhD for three months to support project on modelling of fracture in irradiated graphite bricks in Advanced Gas-Cooled Reactors in collaboration with industrial partners (EDF Energy and Jacobs). I was responsible for extending the functionality of MoFEM to efficiently map the heterogeneous fields and improve the postprocessing, to enhance the code’s HPC capabilities. Furthermore, I gained experience in interaction with the industry through numerous technical sessions and progress meetings. I contributed to organisation of the two workshops at UofG in 2020 aimed at advising our partners in performing simulations using our code. Thanks to sustainable development practices adopted in the MoFEM team, our industrial partners were able to use novel technology to perform simulations required to support safety cases for the UK nuclear power plants’ operations. This work led to the submission of an impact case to REF2021 (The Research Excellence Framework). 
 
+****
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

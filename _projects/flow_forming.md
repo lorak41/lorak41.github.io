@@ -7,8 +7,8 @@ importance: 1
 category: main
 ---
 
-[Good markdown reference](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
-
+[Good markdown  reference](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
+<!-- cheatsheet markdown -->
 
 In this project supported by EPSRC ([EP/T008415/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1))  I am building predictive models for Incremental Cold Flow Forming (ICFF) - a metal forming process for the production of high-quality, rotationally-symmetric, hollow engineering components as widely utilised by the aerospace, automotive and oil and gas sectors.
 
