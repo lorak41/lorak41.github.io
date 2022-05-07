@@ -14,7 +14,7 @@ img: assets/img/posts/coding_stock.jpg
     }
 {% endhighlight %} -->
 
-An extensive list of C++ standards features can be found here [(Under this link)](https://github.com/AnthonyCalandra/modern-cpp-features#stdany). 
+An extensive list of C++ standards features can be found here [(Under this link)](https://github.com/AnthonyCalandra/modern-cpp-features). 
 
 
 C++17 includes the following new language features:

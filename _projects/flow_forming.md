@@ -12,6 +12,8 @@ category: main
 
 In this project supported by EPSRC ([EP/T008415/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1))  I am building predictive models for Incremental Cold Flow Forming (ICFF) - a metal forming process for the production of high-quality, rotationally-symmetric, hollow engineering components as widely utilised by the aerospace, automotive and oil and gas sectors.
 
+<a href="{{ site.baseurl }}/assets/pdf/case_for_support_ICCF.pdf">PDF to proposal</a>
+<a href="{{ site.url }}/al-folio/assets/pdf/case_for_support_ICCF.pdf">PDF to proposal</a>
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
