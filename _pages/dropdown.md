@@ -2,6 +2,7 @@
 layout: page
 title: side projects
 nav: true
+nav_order: 8
 dropdown: true
 children: 
     - title: 3D printing
