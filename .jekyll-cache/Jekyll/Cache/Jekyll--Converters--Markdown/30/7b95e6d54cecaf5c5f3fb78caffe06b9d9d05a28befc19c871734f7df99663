@@ -1,0 +1,306 @@
+I"0I<!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Proceedings</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lewandowski_karol_2021_proceedings" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Numerical modelling of the Incremental Cold Flow Forming process with large strain multifield plasticity approach</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol,&nbsp;Barbera, Daniele,&nbsp;McBride, Andrew,&nbsp;Steinmann, Paul,&nbsp;Pearce, Chris,&nbsp;and Kaczmarczyk, Łukasz
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ukacm.org/ukacm-conferences/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@proceedings</span><span class="p">{</span><span class="nl">lewandowski_karol_2021_proceedings</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{Proceedings}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol and Barbera, Daniele and McBride, Andrew and Steinmann, Paul and Pearce, Chris and Kaczmarczyk, {\L}ukasz}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Numerical modelling of the Incremental Cold Flow Forming process with large strain multifield plasticity approach}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{27th UKACM Conference on Computational Mechanics}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{UKACM}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ukacm.org/ukacm-conferences/}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">PToRSA</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lewandowski2021computational" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A computational framework for crack propagation in spatially heterogeneous materials</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol,&nbsp;Kaczmarczyk, Łukasz,&nbsp;Athanasiadis, Ignatios,&nbsp;Marshall, John F,&nbsp;and Pearce, Chris J
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Philosophical Transactions of the Royal Society A</em> 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lewandowski2021computational</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{PToRSA}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{A computational framework for crack propagation in spatially heterogeneous materials}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol and Kaczmarczyk, {\L}ukasz and Athanasiadis, Ignatios and Marshall, John F and Pearce, Chris J}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Philosophical Transactions of the Royal Society A}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{379}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{2203}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{20200291}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{The Royal Society Publishing}</span><span class="p">,</span>
+  <span class="na">selected</span> <span class="p">=</span> <span class="s">{true}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lewandowski2020numerical" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Numerical investigation into fracture resistance of bone following
+                adaptation</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol,&nbsp;Kaczmarczyk, Łukasz,&nbsp;Athanasiadis, Ignatios,&nbsp;Marshall, John F.,&nbsp;and Pearce, Chris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>CoRR</em> 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lewandowski2020numerical</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol and Kaczmarczyk, {\L}ukasz and Athanasiadis, Ignatios and Marshall, John F. and Pearce, Chris}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Numerical investigation into fracture resistance of bone following
+                  adaptation}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{CoRR}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{abs/2001.00647}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{http://arxiv.org/abs/2001.00647}</span><span class="p">,</span>
+  <span class="na">eprinttype</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">biburl</span> <span class="p">=</span> <span class="s">{https://dblp.org/rec/journals/corr/abs-2001-00647.bib}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">JOSS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="kaczmarczyk2020mofem" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">MoFEM: An open source, parallel finite element library</div>
+          <!-- Author -->
+          <div class="author">Kaczmarczyk, Łukasz,&nbsp;Ullah, Zahur,&nbsp;Lewandowski, Karol,&nbsp;Meng, Xuan,&nbsp;Zhou, Xiao-Yi,&nbsp;Athanasiadis, Ignatios,&nbsp;Nguyen, Hoang,&nbsp;Chalons-Mouriesse, Christophe-Alexandre,&nbsp;Richardson, Euan J,&nbsp;Miur, Euan,&nbsp;and others, 
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Journal of Open Source Software</em> 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://joss.theoj.org/papers/10.21105/joss.01441" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">kaczmarczyk2020mofem</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{JOSS}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{MoFEM: An open source, parallel finite element library}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kaczmarczyk, {\L}ukasz and Ullah, Zahur and Lewandowski, Karol and Meng, Xuan and Zhou, Xiao-Yi and Athanasiadis, Ignatios and Nguyen, Hoang and Chalons-Mouriesse, Christophe-Alexandre and Richardson, Euan J and Miur, Euan and others}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Open Source Software}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{5}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{45}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1441}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://joss.theoj.org/papers/10.21105/joss.01441}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Dissertation</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lewandowski2020thesis" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Numerical investigation of bone adaptation to exercise and fracture in Thoroughbred racehorses</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Journal of Open Source Software</em> 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://theses.gla.ac.uk/81627/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@book</span><span class="p">{</span><span class="nl">lewandowski2020thesis</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{Dissertation}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Numerical investigation of bone adaptation to exercise and fracture in Thoroughbred racehorses}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Thesis}</span><span class="p">,</span>
+  <span class="na">school</span> <span class="p">=</span> <span class="s">{University of Glasgow}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://theses.gla.ac.uk/81627/}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Proceedings</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="karol2019conf" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Modelling of crack propagation in heterogeneous materials like bones</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol,&nbsp;Kaczmarczyk, ,&nbsp;Marshall, John F.,&nbsp;and Pearce, Chris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In </em> Apr 2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://ukacm.org/ukacm-conferences/" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">karol2019conf</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol and {\L}ukasz Kaczmarczyk and Marshall, John F. and Pearce, Chris}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{Proceedings}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{26th UKACM Conference on Computational Mechanics}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{UKACM}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Modelling of crack propagation in heterogeneous materials like bones}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://ukacm.org/ukacm-conferences/}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2017</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Zenodo</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lewandowski_karol_2017_proceedings" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Numerical analysis of bone remodelling for equine 
+               3rd metacarpal.</div>
+          <!-- Author -->
+          <div class="author">Lewandowski, Karol,&nbsp;Kaczmarczyk, Łukasz,&nbsp;Marshall, John F.,&nbsp;and Pearce, Chris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In </em> Apr 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://doi.org/10.5281/zenodo.439398" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@proceedings</span><span class="p">{</span><span class="nl">lewandowski_karol_2017_proceedings</span><span class="p">,</span>
+  <span class="na">bibtex_show</span> <span class="p">=</span> <span class="s">{true}</span><span class="p">,</span>
+  <span class="na">abbr</span> <span class="p">=</span> <span class="s">{Zenodo}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lewandowski, Karol and Kaczmarczyk, {\L}ukasz and Marshall, John F. and Pearce, Chris}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Numerical analysis of bone remodelling for equine 
+                 3rd metacarpal.}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{UKACM}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{25th UKACM Conference on Computational Mechanics}</span><span class="p">,</span>
+  <span class="na">html</span> <span class="p">=</span> <span class="s">{https://doi.org/10.5281/zenodo.439398}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
+:ET

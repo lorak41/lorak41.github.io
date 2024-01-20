@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/al-folio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/al-folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-07T16:28:54+01:00</updated><id>http://localhost:4000/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Digital Twins in MoFEM</title><link href="http://localhost:4000/al-folio/blog/2022/digital_twins/" rel="alternate" type="text/html" title="Digital Twins in MoFEM" /><published>2022-03-20T17:39:00+00:00</published><updated>2022-03-20T17:39:00+00:00</updated><id>http://localhost:4000/al-folio/blog/2022/digital_twins</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2022/digital_twins/"><![CDATA[<blockquote>
+    Digital twins must be able to analyse `what if` scenarios and issue predictions about the future, in order to guide decision making to manage a physical asset. That means the digital twin cannot be built on data alone, it needs to include both data and predictive models.
+    —Steven Niederer
+</blockquote>]]></content><author><name></name></author><category term="MoFEM" /><category term="implementations" /><summary type="html"><![CDATA[Concept of digital twins proposed with MoFEM library]]></summary></entry><entry><title type="html">My contributions to MoFEM</title><link href="http://localhost:4000/al-folio/blog/2022/my_contributions/" rel="alternate" type="text/html" title="My contributions to MoFEM" /><published>2022-03-01T15:00:00+00:00</published><updated>2022-03-01T15:00:00+00:00</updated><id>http://localhost:4000/al-folio/blog/2022/my_contributions</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2022/my_contributions/"><![CDATA[]]></content><author><name></name></author><category term="MoFEM" /><category term="implementations" /><summary type="html"><![CDATA[A selection of the most important developments and contributions to MoFEM]]></summary></entry><entry><title type="html">Programming C++ with MoFEM</title><link href="http://localhost:4000/al-folio/blog/2022/programming_mofem/" rel="alternate" type="text/html" title="Programming C++ with MoFEM" /><published>2022-02-12T15:00:00+00:00</published><updated>2022-02-12T15:00:00+00:00</updated><id>http://localhost:4000/al-folio/blog/2022/programming_mofem</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2022/programming_mofem/"><![CDATA[<!-- 
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre>    <span class="kr">inline</span> <span class="k">auto</span> <span class="nf">getBcEntsPtr</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="n">boost</span><span class="o">::</span><span class="n">shared_ptr</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">&gt;</span><span class="p">(</span><span class="n">shared_from_this</span><span class="p">(),</span> <span class="o">&amp;</span><span class="n">bcEnts</span><span class="p">);</span>
+    <span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+ -->
+
+<p>An extensive list of C++ standards features can be found here <a href="https://github.com/AnthonyCalandra/modern-cpp-features">(Under this link)</a>.</p>
+
+<p>C++17 includes the following new language features:</p>
+<ul>
+  <li><a href="#template-argument-deduction-for-class-templates">template argument deduction for class templates</a></li>
+  <li><a href="#declaring-non-type-template-parameters-with-auto">declaring non-type template parameters with auto</a></li>
+  <li><a href="#folding-expressions">folding expressions</a></li>
+  <li><a href="#new-rules-for-auto-deduction-from-braced-init-list">new rules for auto deduction from braced-init-list</a></li>
+  <li><a href="#constexpr-lambda">constexpr lambda</a></li>
+  <li><a href="#lambda-capture-this-by-value">lambda capture this by value</a></li>
+  <li><a href="#inline-variables">inline variables</a></li>
+  <li><a href="#nested-namespaces">nested namespaces</a></li>
+  <li><a href="#structured-bindings">structured bindings</a></li>
+  <li><a href="#selection-statements-with-initializer">selection statements with initializer</a></li>
+  <li><a href="#constexpr-if">constexpr if</a></li>
+  <li><a href="#utf-8-character-literals">utf-8 character literals</a></li>
+  <li><a href="#direct-list-initialization-of-enums">direct-list-initialization of enums</a></li>
+  <li><a href="#fallthrough-nodiscard-maybe_unused-attributes">fallthrough, nodiscard, maybe_unused attributes</a></li>
+  <li><a href="#\_\_has\_include">__has_include</a></li>
+</ul>
+
+<p>C++17 includes the following new standard library features:</p>
+<ul>
+  <li><a href="#stdvariant">std::variant</a></li>
+  <li><a href="#stdoptional">std::optional</a></li>
+  <li><a href="#stdany">std::any</a></li>
+  <li><a href="#stdstring_view">std::string_view</a></li>
+  <li><a href="#stdinvoke">std::invoke</a></li>
+  <li><a href="#stdapply">std::apply</a></li>
+  <li><a href="#stdfilesystem">std::filesystem</a></li>
+  <li><a href="#stdbyte">std::byte</a></li>
+  <li><a href="#splicing-for-maps-and-sets">splicing for maps and sets</a></li>
+  <li><a href="#parallel-algorithms">parallel algorithms</a></li>
+</ul>
+
+<p>C++14 includes the following new language features:</p>
+<ul>
+  <li><a href="#binary-literals">binary literals</a></li>
+  <li><a href="#generic-lambda-expressions">generic lambda expressions</a></li>
+  <li><a href="#lambda-capture-initializers">lambda capture initializers</a></li>
+  <li><a href="#return-type-deduction">return type deduction</a></li>
+  <li><a href="#decltypeauto">decltype(auto)</a></li>
+  <li><a href="#relaxing-constraints-on-constexpr-functions">relaxing constraints on constexpr functions</a></li>
+  <li><a href="#variable-templates">variable templates</a></li>
+  <li><a href="#deprecated-attribute">[[deprecated]] attribute</a></li>
+</ul>
+
+<p>C++14 includes the following new standard library features:</p>
+<ul>
+  <li><a href="#user-defined-literals-for-standard-library-types">user-defined literals for standard library types</a></li>
+  <li><a href="#compile-time-integer-sequences">compile-time integer sequences</a></li>
+  <li><a href="#stdmake_unique">std::make_unique</a></li>
+</ul>
+
+<p>C++11 includes the following new language features:</p>
+<ul>
+  <li><a href="#move-semantics">move semantics</a></li>
+  <li><a href="#variadic-templates">variadic templates</a></li>
+  <li><a href="#rvalue-references">rvalue references</a></li>
+  <li><a href="#forwarding-references">forwarding references</a></li>
+  <li><a href="#initializer-lists">initializer lists</a></li>
+  <li><a href="#static-assertions">static assertions</a></li>
+  <li><a href="#auto">auto</a></li>
+  <li><a href="#lambda-expressions">lambda expressions</a></li>
+  <li><a href="#decltype">decltype</a></li>
+  <li><a href="#type-aliases">type aliases</a></li>
+  <li><a href="#nullptr">nullptr</a></li>
+  <li><a href="#strongly-typed-enums">strongly-typed enums</a></li>
+  <li><a href="#attributes">attributes</a></li>
+  <li><a href="#constexpr">constexpr</a></li>
+  <li><a href="#delegating-constructors">delegating constructors</a></li>
+  <li><a href="#user-defined-literals">user-defined literals</a></li>
+  <li><a href="#explicit-virtual-overrides">explicit virtual overrides</a></li>
+  <li><a href="#final-specifier">final specifier</a></li>
+  <li><a href="#default-functions">default functions</a></li>
+  <li><a href="#deleted-functions">deleted functions</a></li>
+  <li><a href="#range-based-for-loops">range-based for loops</a></li>
+  <li><a href="#special-member-functions-for-move-semantics">special member functions for move semantics</a></li>
+  <li><a href="#converting-constructors">converting constructors</a></li>
+  <li><a href="#explicit-conversion-functions">explicit conversion functions</a></li>
+  <li><a href="#inline-namespaces">inline-namespaces</a></li>
+  <li><a href="#non-static-data-member-initializers">non-static data member initializers</a></li>
+  <li><a href="#right-angle-brackets">right angle brackets</a></li>
+  <li><a href="#ref-qualified-member-functions">ref-qualified member functions</a></li>
+  <li><a href="#trailing-return-types">trailing return types</a></li>
+  <li><a href="#noexcept-specifier">noexcept specifier</a></li>
+  <li><a href="#char32_t-and-char16_t">char32_t and char16_t</a></li>
+  <li><a href="#raw-string-literals">raw string literals</a></li>
+</ul>
+
+<p>C++11 includes the following new standard library features:</p>
+<ul>
+  <li><a href="#stdmove">std::move</a></li>
+  <li><a href="#stdforward">std::forward</a></li>
+  <li><a href="#stdthread">std::thread</a></li>
+  <li><a href="#stdto_string">std::to_string</a></li>
+  <li><a href="#type-traits">type traits</a></li>
+  <li><a href="#smart-pointers">smart pointers</a></li>
+  <li><a href="#stdchrono">std::chrono</a></li>
+  <li><a href="#tuples">tuples</a></li>
+  <li><a href="#stdtie">std::tie</a></li>
+  <li><a href="#stdarray">std::array</a></li>
+  <li><a href="#unordered-containers">unordered containers</a></li>
+  <li><a href="#stdmake_shared">std::make_shared</a></li>
+  <li><a href="#stdref">std::ref</a></li>
+  <li><a href="#memory-model">memory model</a></li>
+  <li><a href="#stdasync">std::async</a></li>
+  <li><a href="#stdbeginend">std::begin/end</a></li>
+</ul>
+
+<!-- * class template argument deduction
+* inline variable
+* initializers for `if` and `switch`
+* lambda capture of `this`
+* `constexpr` lambda -->
+
+<h3 id="modern-c17-standard-features-used-by-mofem">Modern C++17 standard features used by MoFEM</h3>
+
+<h3 id="modern-c14-standard-features-used-by-mofem">Modern C++14 standard features used by MoFEM</h3>
+
+<h5 id="return-type-deduction">return type deduction</h5>
+<p>Using an <code class="language-plaintext highlighter-rouge">auto</code> return type in C++14, the compiler will attempt to deduce the type for you. With lambdas, you can now deduce its return type using <code class="language-plaintext highlighter-rouge">auto</code>, which makes returning a deduced reference or rvalue reference possible.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kr">inline</span> <span class="k">auto</span> <span class="nf">getBcEntsPtr</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="n">boost</span><span class="o">::</span><span class="n">shared_ptr</span><span class="o">&lt;</span><span class="n">Range</span><span class="o">&gt;</span><span class="p">(</span><span class="n">shared_from_this</span><span class="p">(),</span> <span class="o">&amp;</span><span class="n">bcEnts</span><span class="p">);</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<h5 id="decltypeauto">decltype(auto)</h5>
+<p>The <code class="language-plaintext highlighter-rouge">decltype(auto)</code> type-specifier also deduces a type like <code class="language-plaintext highlighter-rouge">auto</code> does. However, it deduces return types while keeping their references and cv-qualifiers (<code class="language-plaintext highlighter-rouge">const</code> and <code class="language-plaintext highlighter-rouge">volatile</code>), while <code class="language-plaintext highlighter-rouge">auto</code> will not.</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="k">auto</span> <span class="n">dit</span> <span class="o">=</span> <span class="n">p_miit</span><span class="o">-&gt;</span><span class="n">numeredColDofsPtr</span><span class="o">-&gt;</span><span class="n">lower_bound</span><span class="p">(</span><span class="n">uid</span><span class="p">);</span>
+     <span class="k">decltype</span><span class="p">(</span><span class="n">dit</span><span class="p">)</span> <span class="n">hi_dit</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h3 id="modern-c11-standard-features-used-by-mofem">Modern C++11 standard features used by MoFEM</h3>
+
+<h5 id="move-semantics">move semantics</h5>
+<p>Moving an object means to transfer ownership of some resource it manages to another object.</p>
+
+<p>The first benefit of move semantics is performance optimization. When an object is about to reach the end of its lifetime, either because it’s a temporary or by explicitly calling <code class="language-plaintext highlighter-rouge">std::move</code>, a move is often a cheaper way to transfer resources. For example, moving a <code class="language-plaintext highlighter-rouge">std::vector</code> is just copying some pointers and internal state over to the new vector – copying would involve having to copy every single contained element in the vector, which is expensive and unnecessary if the old vector will soon be destroyed.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">// preprocess</span>
+  <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="o">&amp;</span><span class="n">bit</span> <span class="o">:</span> <span class="n">ts_ctx</span><span class="o">-&gt;</span><span class="n">preProcessIFunction</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">bit</span><span class="o">-&gt;</span><span class="n">vecAssembleSwitch</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">ts_ctx</span><span class="o">-&gt;</span><span class="n">vecAssembleSwitch</span><span class="p">);</span>
+    <span class="n">set</span><span class="p">(</span><span class="o">*</span><span class="n">bit</span><span class="p">);</span>
+    <span class="n">CHKERR</span> <span class="n">ts_ctx</span><span class="o">-&gt;</span><span class="n">mField</span><span class="p">.</span><span class="n">problem_basic_method_preProcess</span><span class="p">(</span><span class="n">ts_ctx</span><span class="o">-&gt;</span><span class="n">problemName</span><span class="p">,</span>
+                                                          <span class="o">*</span><span class="n">bit</span><span class="p">);</span>
+    <span class="n">unset</span><span class="p">(</span><span class="o">*</span><span class="n">bit</span><span class="p">);</span>
+    <span class="n">ts_ctx</span><span class="o">-&gt;</span><span class="n">vecAssembleSwitch</span> <span class="o">=</span> <span class="n">boost</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">bit</span><span class="o">-&gt;</span><span class="n">vecAssembleSwitch</span><span class="p">);</span>
+  <span class="p">}</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="MoFEM" /><category term="programming" /><summary type="html"><![CDATA[Code practices and useful resources for learning to code with MoFEM]]></summary></entry><entry><title type="html">What MoFEM offers?</title><link href="http://localhost:4000/al-folio/blog/2022/what_mofem-offers/" rel="alternate" type="text/html" title="What MoFEM offers?" /><published>2022-01-19T12:00:00+00:00</published><updated>2022-01-19T12:00:00+00:00</updated><id>http://localhost:4000/al-folio/blog/2022/what_mofem-offers</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2022/what_mofem-offers/"><![CDATA[<p><a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a <code class="language-plaintext highlighter-rouge">C++</code> library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. <code class="language-plaintext highlighter-rouge">MoFEM</code> is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.</p>
+
+<p><code class="language-plaintext highlighter-rouge">MoFEM</code> is an advanced open-source Finite Element (FE) libraries. The catalyst for the creation of <code class="language-plaintext highlighter-rouge">MoFEM</code> was the need for a flexible and numerically accurate modelling environment for multi-physics problems posed by our partners, including industry (EDF Energy, Jacobs, Advanced Forming Research Centre, etc).</p>
+
+<p><code class="language-plaintext highlighter-rouge">MoFEM</code> delivers a software development platform that enhances scientific innovation by providing a flexible and adaptable modelling framework, using novel disruptive approaches to long-standing problems in continuum mechanics and tackling conflicting requirements of accuracy and computational efficiency. This is achieved in <code class="language-plaintext highlighter-rouge">MoFEM</code> by developing and adopting state-of-the-art FE technologies, for example, H1-, H(curl)-, H(div)- and L2-conforming finite elements equipped with hierarchical, heterogeneous, and anisotropic approximation bases; error-driven hp-adaptivity; mesh topology evolution. In addition, <code class="language-plaintext highlighter-rouge">MoFEM</code>’s HPC capabilities are supported by its unique data structures capable of handling generic multi-field, multi-physics and multi-scale problems.</p>
+
+<p>Therefore, <code class="language-plaintext highlighter-rouge">MoFEM</code> provides users with an effective tool for solving Partial Differential Equations arising in various fields of Engineering and Applied Physics: solid mechanics, fluid mechanics, soft matter physics, heat transfer, electromagnetism etc. Furthermore, <code class="language-plaintext highlighter-rouge">MoFEM</code> features an extendable modular design: while its open-source core library is developed to manage the complexities of FEM, additional user modules are devoted to particular applications. Such a toolkit-like structure allows for independent development of modules with different repositories, owners and licences.</p>
+
+<p>An extensive list of features can be found under <a href="http://mofem.eng.gla.ac.uk/mofem/html/motivation.html">this link </a>.</p>
+
+<p>Installation, functionality and documentation of <code class="language-plaintext highlighter-rouge">MoFEM</code> were independently verified by five open reviewers to satisfy the standards of the <a href="https://joss.theoj.org/papers/10.21105/joss.01441">Journal of Open Source Software</a>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/posts/mofem_modules-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/posts/mofem_modules-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/posts/mofem_modules-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/posts/mofem_modules.jpg" title="mofem modules overview" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+</div>
+<div class="caption">
+    Examples of user modules implemented using <a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM </a>.
+</div>
+
+<p>The core <a href="http://mofem.eng.gla.ac.uk/mofem/html/authors.html">developers</a> of <code class="language-plaintext highlighter-rouge">MoFEM</code> identify the following list of unique features that distinguishes its library from competitors like <a href="https://www.dealii.org/">dealii</a>, <a href="https://mfem.org/">MFEM</a>, <a href="https://libmesh.github.io/">libMesh</a>, <a href="https://fenicsproject.org/">FEniCS</a>, <a href="https://freefem.org/">FreeFEM++</a>, <a href="https://mooseframework.inl.gov/">MOOSE</a>. This is not an exhaustive list but it shows what are the key strengths of <code class="language-plaintext highlighter-rouge">MoFEM</code>.</p>
+
+<h3 id="mofem-features"><code class="language-plaintext highlighter-rouge">MoFEM</code> features:</h3>
+<ul>
+    <li>Verstaility in developing finite elements</li>
+    <li>Allows for an extensive experimentation with mixing various spaces, types of base functions and dimensions</li>
+    <li>Provides a numerical analysis research tool for solving PDEs</li>
+    <li>It is not limited to research, it allows for solving complex engineering problems combining many types of elements, material models, boundary conditions and more</li>
+    <li>Enables multiphysics, digital twins, data-driven mechanics research and development </li>
+</ul>
+
+<hr />
+
+<blockquote>
+... all models are approximations. Essentially, all models are wrong, but some are useful.
+    —Norman Draper
+</blockquote>]]></content><author><name></name></author><category term="MoFEM" /><category term="programming" /><summary type="html"><![CDATA[Main features of the MoFEM finite element library]]></summary></entry><entry><title type="html">a post with redirect</title><link href="http://localhost:4000/al-folio/blog/2021/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2021-07-04T18:39:00+01:00</published><updated>2021-07-04T18:39:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2021/redirect</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2021/redirect/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="http://localhost:4000/al-folio/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T18:39:00+01:00</published><updated>2021-07-04T18:39:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2021/diagrams</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
+Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
+
+<p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
+Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
+For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p>
+
+<h2 id="mermaid">Mermaid</h2>
+
+<p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
+</code></pre></div></div>
+
+<p>The diagram below was generated by the following code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
+sequenceDiagram
+    participant John
+    participant Alice
+    Alice-&gt;&gt;John: Hello John, how are you?
+    John--&gt;&gt;Alice: Great!
+{% endmermaid %}
+</code></pre></div></div>
+
+<div class="jekyll-diagrams diagrams mermaid">
+  Command Not Found: mmdc
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="http://localhost:4000/al-folio/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+01:00</published><updated>2021-05-22T00:00:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2021/distill</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2021/distill/"><![CDATA[<p><strong>NOTE:</strong>
+Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
+If you are interested in correctly adding dark mode support for distill, please open <a href="https://github.com/alshedivat/al-folio/discussions">a discussion</a> and let us know.</p>
+
+<h2 id="equations">Equations</h2>
+
+<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine.
+You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
+If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
+
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
+Here is an example:</p>
+
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
+
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>
+
+<hr />
+
+<h2 id="citations">Citations</h2>
+
+<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.</p>
+
+<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.</p>
+
+<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
+
+<hr />
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
+The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
+
+<hr />
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
+An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
+For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
+
+<d-code block="" language="javascript">
+  var x = 25;
+  function(x) {
+    return x * x;
+  }
+</d-code>
+
+<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> blocks do not look well in the dark mode.
+You can always use the default code-highlight using the <code class="language-plaintext highlighter-rouge">highlight</code> liquid tag:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
+<span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">x</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<hr />
+
+<h2 id="layouts">Layouts</h2>
+
+<p>The main text column is referred to as the body.
+It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
+
+<div class="fake-img l-body">
+  <p>.l-body</p>
+</div>
+
+<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
+
+<div class="fake-img l-page">
+  <p>.l-page</p>
+</div>
+
+<p>All of these have an outset variant if you want to poke out from the body text a little bit.
+For instance:</p>
+
+<div class="fake-img l-body-outset">
+  <p>.l-body-outset</p>
+</div>
+
+<div class="fake-img l-page-outset">
+  <p>.l-page-outset</p>
+</div>
+
+<p>Occasionally you’ll want to use the full browser width.
+For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
+You can also inset the element a little from the edge of the browser by using the inset variant.</p>
+
+<div class="fake-img l-screen">
+  <p>.l-screen</p>
+</div>
+<div class="fake-img l-screen-inset">
+  <p>.l-screen-inset</p>
+</div>
+
+<p>The final layout is for marginalia, asides, and footnotes.
+It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
+
+<div class="fake-img l-gutter">
+  <p>.l-gutter</p>
+</div>
+
+<hr />
+
+<h2 id="other-typography">Other Typography?</h2>
+
+<p>Emphasis, aka italics, with <em>asterisks</em> (<code class="language-plaintext highlighter-rouge">*asterisks*</code>) or <em>underscores</em> (<code class="language-plaintext highlighter-rouge">_underscores_</code>).</p>
+
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+
+<ol>
+  <li>First ordered list item</li>
+  <li>Another item
+⋅⋅* Unordered sub-list.</li>
+  <li>Actual numbers don’t matter, just that it’s a number
+⋅⋅1. Ordered sub-list</li>
+  <li>And another item.</li>
+</ol>
+
+<p>⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).</p>
+
+<p>⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+
+<ul>
+  <li>Unordered list can use asterisks</li>
+  <li>Or minuses</li>
+  <li>Or pluses</li>
+</ul>
+
+<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+
+<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
+
+<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
+
+<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
+
+<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+
+<p>URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes 
+example.com (but not on Github, for example).</p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<p>Here’s our logo (hover to see the title text):</p>
+
+<p>Inline-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
+
+<p>Reference-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
+
+<p>Inline <code class="language-plaintext highlighter-rouge">code</code> has <code class="language-plaintext highlighter-rouge">back-ticks around</code> it.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<span class="k">print</span> <span class="n">s</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre></div></div>
+
+<p>Colons can be used to align columns.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don’t need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+
+<p>Quote break.</p>
+
+<blockquote>
+  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+</blockquote>
+
+<p>Here’s a line for us to start with.</p>
+
+<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
+
+<p>This line is also a separate paragraph, but…
+This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with github metadata</title><link href="http://localhost:4000/al-folio/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T22:01:00+01:00</published><updated>2020-09-28T22:01:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2020/github-metadata</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
+
+<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
+<ul>
+  <li>Propagates the site.github namespace with repository metadata</li>
+  <li>Setting site variables :
+    <ul>
+      <li>site.title</li>
+      <li>site.description</li>
+      <li>site.url</li>
+      <li>site.baseurl</li>
+    </ul>
+  </li>
+  <li>Accessing the metadata - duh.</li>
+  <li>Generating edittable links.</li>
+</ul>
+
+<h2 id="additional-reading">Additional Reading</h2>
+<ul>
+  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
+  <li>Go through this <a href="https://jekyll.github.io/github-metadata/">README</a> for more details on the topic.</li>
+  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
+<br /></li>
+</ul>
+
+<h2 id="example-metadata">Example MetaData</h2>
+<ul>
+  <li>Host Name :</li>
+  <li>URL :</li>
+  <li>BaseURL :</li>
+  <li>Archived :</li>
+  <li>Contributors :</li>
+</ul>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[a quick run down on accessing github metadata.]]></summary></entry><entry><title type="html">a post with twitter</title><link href="http://localhost:4000/al-folio/blog/2020/twitter/" rel="alternate" type="text/html" title="a post with twitter" /><published>2020-09-28T16:12:00+01:00</published><updated>2020-09-28T16:12:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2020/twitter</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2020/twitter/"><![CDATA[<p>A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.</p>
+
+<h1 id="tweet">Tweet</h1>
+<p>An example of displaying a tweet:</p>
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="sv" dir="ltr">jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API <a href="http://t.co/m4EIQPM9h4">http://t.co/m4EIQPM9h4</a></p>&mdash; RubyGems (@rubygems) <a href="https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw">October 5, 2014</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<h1 id="timeline">Timeline</h1>
+<p>An example of pulling from a timeline:</p>
+<div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">Tweets by jekyllrb</a>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<h1 id="additional-details">Additional Details</h1>
+<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin">jekyll-twitter-plugin</a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><category term="formatting" /><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry><entry><title type="html">a post with comments</title><link href="http://localhost:4000/al-folio/blog/2015/comments/" rel="alternate" type="text/html" title="a post with comments" /><published>2015-10-20T16:59:00+01:00</published><updated>2015-10-20T16:59:00+01:00</updated><id>http://localhost:4000/al-folio/blog/2015/comments</id><content type="html" xml:base="http://localhost:4000/al-folio/blog/2015/comments/"><![CDATA[<p>This post shows how to add DISQUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with comments]]></summary></entry></feed>

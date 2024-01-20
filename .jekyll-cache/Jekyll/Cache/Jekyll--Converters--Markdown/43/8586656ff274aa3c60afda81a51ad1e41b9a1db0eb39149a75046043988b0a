@@ -1,0 +1,194 @@
+I"ã<!-- https://gist.github.com/roachhd/779fa77e9b90fe945b0c -->
+
+<h3 id="scientific">scientific</h3>
+<hr />
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/1.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+        <div class="caption">
+            Here I am testing mini captions 1
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/3-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/3-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/3-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/3.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+        <div class="caption">
+            Here I am testing mini captions 2
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/5-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/5-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/5-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/5.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+        <div class="caption">
+            Here I am testing mini captions 2
+        </div>
+    </div>
+
+</div>
+
+<div class="caption">
+    Here I am testing a global caption.
+</div>
+
+<h3 id="models">models</h3>
+<hr />
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/1.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/3-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/3-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/3-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/3.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/5-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/5-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/5-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/5.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+</div>
+
+<h3 id="gifts">gifts</h3>
+<hr />
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/1.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/3-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/3-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/3-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/3.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/5-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/5-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/5-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/5.jpg" title="example image" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+</div>
+
+<h3 id="arduino">arduino</h3>
+<hr />
+<h3 id="practical">practical</h3>
+<hr />
+<h3 id="fun">fun</h3>
+<hr />
+
+<!-- ---
+layout: page
+permalink: /3d_printing/
+title: 3D printing
+description: My page about 3D printing passion and Arduino
+nav: true
+--- -->
+
+:ET

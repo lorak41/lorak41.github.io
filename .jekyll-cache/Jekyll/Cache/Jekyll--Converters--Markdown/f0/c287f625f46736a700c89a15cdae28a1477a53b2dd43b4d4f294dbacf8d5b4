@@ -1,0 +1,384 @@
+I"{7<!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">main</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/flow_forming/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/main_projects/proper_flow_forming-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/main_projects/proper_flow_forming-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/main_projects/proper_flow_forming-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/main_projects/proper_flow_forming.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Flow forming</h2>
+          <p class="card-text">An integrated framework for fundamental understanding and process optimisation</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/bone_fracture/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/main_projects/better_bone-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/main_projects/better_bone-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/main_projects/better_bone-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/main_projects/better_bone.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">bone fracture</h2>
+          <p class="card-text">My PhD project regarding bones fractures</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/edf_graphite/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/main_projects/edf_brick1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/main_projects/edf_brick1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/main_projects/edf_brick1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/main_projects/edf_brick1.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Nuclear graphite bricks</h2>
+          <p class="card-text">Work for EDF Energy</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">side</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/cell_engineering/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/cell_engineering-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/cell_engineering-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/cell_engineering-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/cell_engineering.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Cell engineering</h2>
+          <p class="card-text">Developments for MiME group for Force Traction Microscopy</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/hpc_developments/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/hpc_example-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/hpc_example-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/hpc_example-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/hpc_example.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">HPC tailored solvers in MoFEM</h2>
+          <p class="card-text">High Performance computing studies and optimisations</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/ilizarov_fixator/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/ilizarov-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/ilizarov-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/ilizarov-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/ilizarov.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Ilizarov fixator system</h2>
+          <p class="card-text">Continuation of work in biomechanics</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/mfront_interface/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/mfront_image-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/mfront_image-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/mfront_image-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/mfront_image.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">MFront interface</h2>
+          <p class="card-text">Interface for MFront code generator for MoFEM</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/modules_manager/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/modules_manager3-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/modules_manager3-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/modules_manager3-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/modules_manager3.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">MoFEM modules manager</h2>
+          <p class="card-text">Generic interface for coupling MoFEM users modules</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/phase_field/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/phase_field1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/phase_field1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/phase_field1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/phase_field1.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Phase field for fracture</h2>
+          <p class="card-text">My implementation of phase field for brittle fracture</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/topology_optimisation/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/side_projects/topology_1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/side_projects/topology_1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/side_projects/topology_1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/side_projects/topology_1.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Topology optimisation</h2>
+          <p class="card-text">My simple topology optimisation implementation in MoFEM</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">hobby</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/3d_printing/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/hobby_projects/3d_printer1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/hobby_projects/3d_printer1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/hobby_projects/3d_printer1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/hobby_projects/3d_printer1.jpg" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">3D printing</h2>
+          <p class="card-text">My selected 3D printing projects</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/vr/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/hobby_projects/ar_image1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/hobby_projects/ar_image1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/hobby_projects/ar_image1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/hobby_projects/ar_image1.jpeg" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">VR and AR</h2>
+          <p class="card-text">My Virtual Reality and Augmented Reality developments</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/3d_scanning/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/hobby_projects/3d_scanning1-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/hobby_projects/3d_scanning1-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/hobby_projects/3d_scanning1-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/hobby_projects/3d_scanning1.jpeg" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">3D LiDAR scanning</h2>
+          <p class="card-text">My interests in 3D scanning technology</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">fun</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/al-folio/projects/baking/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/fun_projects/carrot_cake_olga-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/fun_projects/carrot_cake_olga-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/fun_projects/carrot_cake_olga-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img src="/al-folio/assets/img/fun_projects/carrot_cake_olga.jpg" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">baking</h2>
+          <p class="card-text">My selected baking gallery</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div></div>
+:ET

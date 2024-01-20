@@ -1,0 +1,53 @@
+I"�<p><a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a <code class="language-plaintext highlighter-rouge">C++</code> library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. <code class="language-plaintext highlighter-rouge">MoFEM</code> is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.</p>
+
+<p><code class="language-plaintext highlighter-rouge">MoFEM</code> is an advanced open-source Finite Element (FE) libraries. The catalyst for the creation of <code class="language-plaintext highlighter-rouge">MoFEM</code> was the need for a flexible and numerically accurate modelling environment for multi-physics problems posed by our partners, including industry (EDF Energy, Jacobs, Advanced Forming Research Centre, etc).</p>
+
+<p><code class="language-plaintext highlighter-rouge">MoFEM</code> delivers a software development platform that enhances scientific innovation by providing a flexible and adaptable modelling framework, using novel disruptive approaches to long-standing problems in continuum mechanics and tackling conflicting requirements of accuracy and computational efficiency. This is achieved in <code class="language-plaintext highlighter-rouge">MoFEM</code> by developing and adopting state-of-the-art FE technologies, for example, H1-, H(curl)-, H(div)- and L2-conforming finite elements equipped with hierarchical, heterogeneous, and anisotropic approximation bases; error-driven hp-adaptivity; mesh topology evolution. In addition, <code class="language-plaintext highlighter-rouge">MoFEM</code>’s HPC capabilities are supported by its unique data structures capable of handling generic multi-field, multi-physics and multi-scale problems.</p>
+
+<p>Therefore, <code class="language-plaintext highlighter-rouge">MoFEM</code> provides users with an effective tool for solving Partial Differential Equations arising in various fields of Engineering and Applied Physics: solid mechanics, fluid mechanics, soft matter physics, heat transfer, electromagnetism etc. Furthermore, <code class="language-plaintext highlighter-rouge">MoFEM</code> features an extendable modular design: while its open-source core library is developed to manage the complexities of FEM, additional user modules are devoted to particular applications. Such a toolkit-like structure allows for independent development of modules with different repositories, owners and licences.</p>
+
+<p>An extensive list of features can be found under <a href="http://mofem.eng.gla.ac.uk/mofem/html/motivation.html">this link </a>.</p>
+
+<p>Installation, functionality and documentation of <code class="language-plaintext highlighter-rouge">MoFEM</code> were independently verified by five open reviewers to satisfy the standards of the <a href="https://joss.theoj.org/papers/10.21105/joss.01441">Journal of Open Source Software</a>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/al-folio/assets/img/posts/mofem_modules-480.webp" />
+    <source media="(max-width: 800px)" srcset="/al-folio/assets/img/posts/mofem_modules-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/al-folio/assets/img/posts/mofem_modules-1400.webp" />
+    
+
+      <!-- Fallback to the original file -->
+      <img class="img-fluid rounded z-depth-1" src="/al-folio/assets/img/posts/mofem_modules.jpg" title="mofem modules overview" data-zoomable="" />
+
+  </picture>
+
+</figure>
+    </div>
+</div>
+<div class="caption">
+    Examples of user modules implemented using <a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM </a>.
+</div>
+
+<p>The core <a href="http://mofem.eng.gla.ac.uk/mofem/html/authors.html">developers</a> of <code class="language-plaintext highlighter-rouge">MoFEM</code> identify the following list of unique features that distinguishes its library from competitors like <a href="https://www.dealii.org/">dealii</a>, <a href="https://mfem.org/">MFEM</a>, <a href="https://libmesh.github.io/">libMesh</a>, <a href="https://fenicsproject.org/">FEniCS</a>, <a href="https://freefem.org/">FreeFEM++</a>, <a href="https://mooseframework.inl.gov/">MOOSE</a>. This is not an exhaustive list but it shows what are the key strengths of <code class="language-plaintext highlighter-rouge">MoFEM</code>.</p>
+
+<h3 id="mofem-features"><code class="language-plaintext highlighter-rouge">MoFEM</code> features:</h3>
+<ul>
+    <li>Verstaility in developing finite elements</li>
+    <li>Allows for an extensive experimentation with mixing various spaces, types of base functions and dimensions</li>
+    <li>Provides a numerical analysis research tool for solving PDEs</li>
+    <li>It is not limited to research, it allows for solving complex engineering problems combining many types of elements, material models, boundary conditions and more</li>
+    <li>Enables multiphysics, digital twins, data-driven mechanics research and development </li>
+</ul>
+
+<hr />
+
+<blockquote>
+... all models are approximations. Essentially, all models are wrong, but some are useful.
+    —Norman Draper
+</blockquote>
+
+:ET
