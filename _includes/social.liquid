@@ -40,6 +40,9 @@
 {% if site.x_username %}
   <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
 {% endif %}
+{%- if site.bitbucket_username -%}
+   <a href="https://bitbucket.com/{{ site.bitbucket_username }}" title="Bitbucket"><i class="fab fa-bitbucket fa-xs"></i></a>
+{% endif %}
 {% if site.mastodon_username %}
   <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
 {% endif %}

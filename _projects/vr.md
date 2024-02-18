@@ -2,9 +2,9 @@
 layout: page
 title: VR and AR
 description: My Virtual Reality and Augmented Reality developments
-img: assets/img/hobby_projects/ar_image1.jpeg
+img: assets/img/projects/visualisation_vr_ar/poster_image.png
 importance: 1
-category: hobby
+category: Visualisation & Simulation Tools
 ---
 
 Every project has a beautiful feature showcase page.
@@ -12,76 +12,71 @@ It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
 
-[![Watch the video](https://img.youtube.com/vi/581MZC-hW0k/0.jpg)](https://youtu.be/581MZC-hW0k)
+### Innovations in VR and AR for Research Presentation
 
-[<img src="https://img.youtube.com/vi/581MZC-hW0k/maxresdefault.jpg" width="50%">](https://youtu.be/581MZC-hW0k)
+Throughout my academic career, I practiced the development of `Virtual Reality (VR)` and `Augmented Reality (AR)` applications to enhance the presentation of my research. Here are some key highlights:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- **Award-Winning AR Poster Presentation:** I won the best prize for a poster presentation where I incorporated `AR content` into my scientific poster. This innovative approach allowed viewers to access augmented reality content on any mobile device by scanning a `QR code`, a novel concept at the time.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Utilizing VR Headsets and Unity Game Engine:** Employing `VR headsets` from Facebook and the `Unity Game Engine` to create apps for presenting `finite element results`. These apps have been used in various settings, including conferences and meetings with industry partners. The visualization of finite element data in VR and AR posed a significant challenge due to the need for highly optimized and processed results. `Finite element data` are typically not suitable for straightforward visualization in these mediums.
+
+- **Innovative Mesh Processing and Postprocessing:** To overcome these challenges, I initiated advanced mesh processing routines and developed a method for postprocessing the `outer skin of FEA results`. This innovation significantly reduced the amount of data processing required, making it feasible to use these results in mobile devices with restrictive capacities.
+
+This work not only demonstrates my technical proficiency but also underscores my commitment to enhancing research accessibility and engagement through cutting-edge technologies.
+
+
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/poster_vid.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/hand_track-ezgif.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/bone_manipulation.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Scientific poster augmented with interactive 3D elements (left), integration of hand tracking into VR (MRTK toolkit) (middle), Virtual Reality object manipulation with precise controllers (right)
 </div>
+
+
+---
+
+### Leveraging CT-Scan Data for 3D-Printed Anatomical Models
+
+My expertise in `segmenting` and `postprocessing CT-scan data` has been effectively utilized in creating 3D-printed anatomical models. This endeavor includes:
+
+- **3D Printing of Anatomical Models:** Using advanced data processing skills to transform CT-scan data into accurate 3D-printed models. A notable example is the model of a `horse fetlock joint`.
+
+- **Enhancing Data Processing Skills:** This process allowed me to refine and practice my data processing abilities, crucial in handling complex anatomical structures.
+
+- **Educational and Visualization Tool:** The 3D-printed models serve as valuable educational resources and visualization tools, aiding in the understanding of intricate anatomical details.
+
+This application of my technical skills in a practical, educational context demonstrates the versatility and real-world impact of my work in data processing and 3D modeling.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/3d_printing/3d_printed_bones.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/3d_printing/ar_image1.jpeg" class="img-fluid rounded z-depth-1"  %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    3D-printed bone models, AR-tokens for immersive visualisation on any mobile device
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/3d_printing/skates_video-resize-video.mp4" max-width = "300px" class="img-fluid rounded z-depth-1" controls=true autoplay=false loop=true  %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Combination of numerical analysis and 3D-printing to build inline skates
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
 

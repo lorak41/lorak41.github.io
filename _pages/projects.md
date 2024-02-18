@@ -2,9 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects.
+description: A collection of selected projects
 nav: true
-display_categories: [main, side, hobby, fun]
+# display_categories: [main, side, hobby, fun]
+display_categories: [Biomechanics & Applications, Industrial Technologies, Visualisation & Simulation Tools]
 horizontal: false
 ---
 

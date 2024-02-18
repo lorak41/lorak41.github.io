@@ -1,3 +1,4 @@
+<!-- 
 ---
 layout: page
 title: CV
@@ -25,7 +26,8 @@ nav: true
 <!--  java script solution works for me :) -->
 
 <script type="text/javascript">
- document.location = "../assets/pdf/Lewandowski_CVs.pdf"
+  document.location = "../assets/pdf/Lewandowski_CVs.pdf"
 </script>
 
+ -->
 

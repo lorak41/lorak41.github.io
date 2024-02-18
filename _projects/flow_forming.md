@@ -2,114 +2,66 @@
 layout: page
 title: Flow forming
 description: An integrated framework for fundamental understanding and process optimisation
-img: assets/img/main_projects/proper_flow_forming.png
-importance: 1
-category: main
+img: assets/img/projects/flow_forming/proper_flow_forming.png
+importance: 2
+category: Industrial Technologies
+related_publications: true
 ---
 
-[Good markdown  reference](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
-<!-- cheatsheet markdown -->
 
-In this project supported by EPSRC ([EP/T008415/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1))  I am building predictive models for Incremental Cold Flow Forming (ICFF) - a metal forming process for the production of high-quality, rotationally-symmetric, hollow engineering components as widely utilised by the aerospace, automotive and oil and gas sectors.
+Introducing a breakthrough in the field of manufacturing technology: our innovative research on Incremental Cold Flow Forming (ICFF). This project was supported by EPSRC ([EP/T008415/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1)) This cutting-edge approach revolutionizes the production of `axisymmetric components`, enhancing geometrical accuracy and material properties beyond traditional methods. High-quality, rotationally-symmetric, hollow engineering components are widely utilised by the aerospace, automotive and oil and gas sectors. 
+This research tackles the complex challenges inherent in ICFF, such as extreme `plastic deformations`, `roller contact`, and `heat dissipation`, which have historically hindered effective simulation and industry adoption {% cite lewandowski2023multifield %}.
 
-<a href="{{ site.baseurl }}/assets/pdf/case_for_support_ICCF.pdf">PDF to proposal</a>
-<a href="{{ site.url }}/al-folio/assets/pdf/case_for_support_ICCF.pdf">PDF to proposal</a>
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-<iframe width="560"
-        height="315"
-        src="https://www.youtube.com/embed/581MZC-hW0k"
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen></iframe>
-
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/main_projects/flow_forming/gif_test.gif" url="http://jekyllrb.com" title="example image" class="img-fluid rounded z-depth-1" zoomable=false %}
+        {% include video.liquid path="assets/img/projects/flow_forming/forming_vid1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/flow_forming/forming_vid2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
-    This is a test gif caption.
+    Incremental Cold Flow Forming process and produced parts. 
 </div>
 
 
-<div class="row">
+Key highlights of our research include:
+
+**Development of a Massively Parallel Multifield Plasticity Approach**: We have engineered a novel method that diverges from classical techniques. This approach uniquely approximates measures of `plastic deformation` using finite element basis functions in `L2 space`, enabling more robust and accurate simulations.
+
+**Innovative Solution Techniques**: The research employs a `global system` level solution with a `monolithic Newton-Raphson scheme`, striking a balance between complexity and flexibility. This allows for seamless integration with other physical phenomena.
+
+**Efficient Utilization of Block-Structured Tangent Stiffness Matrix**: Our method capitalizes on the `block-structure` of the tangent stiffness matrix, utilizing `scalable block preconditioners` for enhanced efficiency.
+
+**Integration of Additive Kinematic Approach**: Adopting the approach proposed by Miehe et. al. (2002) for `finite strain plasticity`, our research enables the use of classical constitutive models within a small-strain framework. This is achieved through the introduction of a `logarithmic strain measure`.
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/main_projects/flow_forming/gif_test.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true caption="testing Jekyll caption" %}
+        {% include video.liquid path="assets/img/projects/flow_forming/full_flow_forming.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
+**Pioneering in Computational Plasticity**: This new approach for plasticity opens entirely new possibilities, akin to the 'holy grail' of computational plasticity: the `Arbitrary Lagrangian Eulerian (ALE)` formulation. In this formulation, the evolution of plastic internal variables is not associated with the mesh, offering unprecedented flexibility and accuracy in simulations.
 
-<!-- [<img src="https://img.youtube.com/vi/581MZC-hW0k/maxresdefault.jpg" width="50%">](https://youtu.be/581MZC-hW0k) -->
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include video.liquid path="assets/img/projects/flow_forming/ale_plast1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include video.liquid path="assets/img/projects/flow_forming/ale_plast2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Prototype simulations of multifield plasticity in Arbitrary Lagrangian-Eulerian kinematic framework.
 </div>
-<div class="row">
+
+**Validation through Benchmark Studies**: The performance and effectiveness of our implementation are rigorously tested through `classical benchmark studies` and extensive `large-scale` simulations of ICFF processes using `HPC`.
+
+This research marks a significant leap in manufacturing technology, promising to unlock the full potential of ICFF and open new horizons in precision manufacturing.
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include video.liquid path="assets/img/projects/flow_forming/flow_benchmark.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-```
-{% endraw %}

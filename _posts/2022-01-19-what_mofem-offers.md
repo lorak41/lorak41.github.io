@@ -26,7 +26,7 @@ Installation, functionality and documentation of `MoFEM` were independently veri
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/posts/mofem_modules.jpg" title="mofem modules overview" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/posts/mofem_modules.jpg" title="mofem modules overview" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ The core [developers](http://mofem.eng.gla.ac.uk/mofem/html/authors.html) of `Mo
 
 ### `MoFEM` features: 
 <ul>
-    <li>Verstaility in developing finite elements</li>
+    <li>Versatility in developing finite elements</li>
     <li>Allows for an extensive experimentation with mixing various spaces, types of base functions and dimensions</li>
     <li>Provides a numerical analysis research tool for solving PDEs</li>
     <li>It is not limited to research, it allows for solving complex engineering problems combining many types of elements, material models, boundary conditions and more</li>

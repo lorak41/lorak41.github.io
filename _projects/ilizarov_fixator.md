@@ -1,80 +1,66 @@
 ---
 layout: page
 title: Ilizarov fixator system
-description: Continuation of work in biomechanics
-img: assets/img/side_projects/ilizarov.png
-importance: 3
-category: side
+description: Collaboration in Orthopedic Innovation
+img: assets/img/projects/ilizarov/ilizarov1.png
+importance: 2
+category: Biomechanics & Applications
+images:
+  compare: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Collaboration in Orthopedic Innovation
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Our project represented a significant advancement in `orthopedic treatment`, merging the fields of `bone mechanics` and `orthopedic surgery`. This collaboration aimed to improve methods for treating `bone defects`, particularly in the context of `limb reconstruction`. Highlights of this initiative included:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Interdisciplinary Collaboration:** A joint effort that bridged advanced research in `bone mechanics` with practical `orthopedic applications`.
+  
+- **Focus on Bone Remodeling and Ilizarov Fixators:** Enhancing existing `bone remodeling simulations` to address bone defects and the mechanics of `Ilizarov fixator systems`.
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img-comparison-slider>
+            {% include figure.liquid path="assets/img/projects/ilizarov/seg2.png" class="img-fluid rounded z-depth-1" slot="first" default-handle-width=100px default-handle-opacity=0  %}
+            {% include figure.liquid path="assets/img/projects/ilizarov/seg1.png" class="img-fluid rounded z-depth-1" slot="second" default-handle-width=100px default-handle-opacity=0 %}
+        </img-comparison-slider>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img-comparison-slider>
+            {% include figure.liquid path="assets/img/projects/ilizarov/slider_A1.png" class="img-fluid rounded z-depth-1" slot="first" default-handle-width=100px default-handle-opacity=0  %}
+            {% include figure.liquid path="assets/img/projects/ilizarov/slider_A2.png" class="img-fluid rounded z-depth-1" slot="second" default-handle-width=100px default-handle-opacity=0 %}
+        </img-comparison-slider>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Image segmentation and FEM meshing of tibia
 </div>
-<div class="row">
+
+
+- **Presented at BLRS 2021:** The project's findings were featured at the prestigious `British Limb Reconstruction Society (BLRS) 2021 Annual Scientific Meeting`.
+
+### Research on Tibial Defects and Fine Wire Fixators
+
+Our study, titled "`Finite Element Modelling of Tibial Defects Managed with a Fine Wire Fixator`," introduced new insights into the treatment of `tibial defects`. Key aspects of this research included:
+
+- **Application of Finite Element Analysis (FEA):** Developing a model to understand the `mechanical response` in `tibial defects`, overcoming limitations of traditional clinical methods.
+
+- **Methodological Innovation:** Using `CT imaging` for precise modeling of `tibial defects` and constructing a detailed simulation of an `Ilizarov fixator` under various conditions.
+
+- **Insightful Findings:** The research revealed key insights about the impact of `defect size` on `strain` and the minimal influence of `bone material properties` on defect mechanics.
+
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/ilizarov/fem_model.png" max-width = "225px"  class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/ilizarov/ilizarov_vid.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    FEM model and visualisation of the solution (displacements)
 </div>
+- **Conclusion and Impact:** We aimed to further refine this model for broader applications in `limb reconstruction`, demonstrating the potential of this method in enhancing `orthopedic treatment strategies`.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
