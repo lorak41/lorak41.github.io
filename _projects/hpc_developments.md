@@ -27,7 +27,7 @@ The `generic data structures` in MoFEM are tailored to power `efficient block so
 
 <div class="row justify-content-sm-center">
    <div class="col-sm-6 col-md-4 text-center mt-1 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/hpc/schur_on_blocks.png" max-width = "300px" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/projects/hpc/schur_on_blocks.png" max-width = "350px" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">

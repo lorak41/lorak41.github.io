@@ -60,7 +60,22 @@ Our study, titled "`Finite Element Modelling of Tibial Defects Managed with a Fi
 <div class="caption">
     FEM model and visualisation of the solution (displacements)
 </div>
+
+
 - **Conclusion and Impact:** We aimed to further refine this model for broader applications in `limb reconstruction`, demonstrating the potential of this method in enhancing `orthopedic treatment strategies`.
 
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <img-comparison-slider>
+            {% include figure.liquid path="assets/img/projects/ilizarov/HTO_slide1.png" class="img-fluid rounded z-depth-1" slot="first" default-handle-width=100px default-handle-opacity=0  %}
+            {% include figure.liquid path="assets/img/projects/ilizarov/HTO_slide2.png" class="img-fluid rounded z-depth-1" slot="second" default-handle-width=100px default-handle-opacity=0 %}
+        </img-comparison-slider>
+    </div>
+</div>
+<div class="caption">
+    High Tibial Osteotomy Device prototype simulation, FEM mesh and results
+</div>
 
 

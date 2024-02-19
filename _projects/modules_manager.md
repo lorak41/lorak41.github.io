@@ -9,9 +9,9 @@ category: Visualisation & Simulation Tools
 
 ## MoFEM Modules Manager Initiative
 
-The **MoFEM Modules Manager** represents a strategic initiative aimed at combining the diverse functionalities of individual MoFEM modules into a unified and potent simulation engine. This innovative approach facilitates the integration of different simulation aspects, significantly enhancing MoFEM's capability for multiphysics analysis.
+The `MoFEM Modules Manager` represents a strategic initiative aimed at combining the diverse functionalities of individual MoFEM modules into a unified and potent simulation engine. This innovative approach facilitates the integration of different simulation aspects, significantly enhancing MoFEM's capability for multiphysics analysis.
 
-One of the prime instance of its application is in the simulation of cable cleats conducted for **ContinuumBlue**. This complex simulation required a multidisciplinary method that brought together **hyperelastic materials**, **dynamics**, **plasticity**, **contact mechanics**, and **electromechanical interactions**. The Modules Manager was pivotal in combining these disparate elements into an efficient and synchronized simulation workflow.
+One of the prime instance of its application is in the simulation of cable cleats conducted for `ContinuumBlue`. This complex simulation required a multidisciplinary method that brought together `hyperelastic materials`, `dynamics`, `plasticity`, `contact mechanics`, and `electromechanical interactions`. The Modules Manager was pivotal in combining these elements into an efficient and synchronized simulation workflow.
 
 
 <div class="row mt-3">

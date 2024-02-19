@@ -38,7 +38,7 @@ This work marks a significant advancement in the computational identification of
         {% include figure.liquid path="assets/img/projects/cell_engineering/cell_forces.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/cell_engineering/cell_forces_vis.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/img/projects/cell_engineering/cell_forces_vis.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">

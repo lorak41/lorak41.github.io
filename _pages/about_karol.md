@@ -13,4 +13,4 @@ As a `Research Software Engineer` and the founder of **Mesh-Oriented Solutions**
 
 My contributions include numerical frameworks utilized in various fields, including `biomechanics`, `nuclear energy` and `manufacturing` and more. Skilled in crafting powerful `Finite Element Method` codes, primarily using modern `C++`, I also leverage modern development tools and methodologies for optimal efficiency and scalability.
 
-My commitment is to provide innovative and effective numerical solutions, ensuring they meet the diverse and demanding needs.
+My commitment is to provide innovative and effective numerical solutions, ensuring they meet the diverse and demanding needs. For a detailed overview of my professional background and project experience, please feel free to download my [Curriculum Vitae](/assets/pdf/Lewandowski_CVs.pdf).

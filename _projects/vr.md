@@ -7,11 +7,6 @@ importance: 1
 category: Visualisation & Simulation Tools
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-
 ### Innovations in VR and AR for Research Presentation
 
 Throughout my academic career, I practiced the development of `Virtual Reality (VR)` and `Augmented Reality (AR)` applications to enhance the presentation of my research. Here are some key highlights:
