@@ -20,6 +20,10 @@ profiles:
       <p>48 West George Street</p>
       <p>Glasgow, G2 1BP</p>
   - align: left
+    image: lukasz_image.jpg
+    content: about_lukasz.md
+    image_circular: true # crops the image to make it circular
+  - align: right
     image: mofem_small_logo.png
     content: about_mofem.md
     image_circular: true # crops the image to make it circular
