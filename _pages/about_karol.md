@@ -6,10 +6,10 @@ My PhD project, supported by [Lord Kelvin and Adam Smith Scholarship](https://ww
 
 My main interests are: `computational mechanics`, `additive manufacturing` technology, `virtual and augmented reality` scientific visualisation and sustainable `research code development` (mostly `C++`). 
 
-I am a senior developer of finite element library at the [MoFEM](http://mofem.eng.gla.ac.uk/) team. -->
+I am a senior developer of finite element library at the [MoFEM](https://mofem.eng.gla.ac.uk/) team. -->
 
 
-As a `Research Software Engineer` and the founder of **Mesh-Oriented Solutions**, my expertise combines deep academic knowledge with extensive professional software development experience. My journey in `finite element` analysis began with a PhD at the `University of Glasgow`, leading to the co-development of [MoFEM](http://mofem.eng.gla.ac.uk).
+As a `Research Software Engineer` and the founder of **Mesh-Oriented Solutions**, my expertise combines deep academic knowledge with extensive professional software development experience. My journey in `finite element` analysis began with a PhD at the `University of Glasgow`, leading to the co-development of [MoFEM](https://mofem.eng.gla.ac.uk).
 
 My contributions include numerical frameworks utilized in various fields, including `biomechanics`, `nuclear energy` and `manufacturing` and more. Skilled in crafting powerful `Finite Element Method` codes, primarily using modern `C++`, I also leverage modern development tools and methodologies for optimal efficiency and scalability.
 

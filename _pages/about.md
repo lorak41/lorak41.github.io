@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: MSc (Eng), PhD
-subtitle: Advanced <a href='http://mofem.eng.gla.ac.uk/mofem/html/index.html'>MoFEM</a> Multiphysics Simulations Consultancy
+subtitle: Advanced <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a> Multiphysics Simulations Consultancy
 
 profile:
   align: right
@@ -44,9 +44,10 @@ Mesh-Oriented Solutions is at the forefront of implementing and deploying cuttin
 ##### Industries we serve:
 
 * `Manufacturing`: Improving design and production processes.
-* `Aerospace`: Innovating in safety and technology for flight.
+<!-- * `Aerospace`: Innovating in safety and technology for flight. -->
+<!-- * `Nanoelectronics`: Simulation and modelling of novel electronic devices and materials -->
 * `Medical`: Advancing patient care with simulation-based solutions.
-* `Energy`: Enhancing efficiency and sustainability.
+* `Energy`: Assessing integrity of safety-critical structures.
 * ...and more.
 
 ##### Our services:
