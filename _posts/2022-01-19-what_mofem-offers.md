@@ -9,7 +9,7 @@ img: assets/img/posts/magnetost_mf.png
 ---
 
 
-<a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a `C++` library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. `MoFEM` is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.
+<a href="https://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a `C++` library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. `MoFEM` is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.
 
 
 `MoFEM` is an advanced open-source Finite Element (FE) libraries. The catalyst for the creation of `MoFEM` was the need for a flexible and numerically accurate modelling environment for multi-physics problems posed by our partners, including industry (EDF Energy, Jacobs, Advanced Forming Research Centre, etc).
@@ -19,7 +19,7 @@ img: assets/img/posts/magnetost_mf.png
 
 Therefore, `MoFEM` provides users with an effective tool for solving Partial Differential Equations arising in various fields of Engineering and Applied Physics: solid mechanics, fluid mechanics, soft matter physics, heat transfer, electromagnetism etc. Furthermore, `MoFEM` features an extendable modular design: while its open-source core library is developed to manage the complexities of FEM, additional user modules are devoted to particular applications. Such a toolkit-like structure allows for independent development of modules with different repositories, owners and licences.
 
-An extensive list of features can be found under <a href="http://mofem.eng.gla.ac.uk/mofem/html/motivation.html">this link </a>.
+An extensive list of features can be found under <a href="https://mofem.eng.gla.ac.uk/mofem/html/motivation.html">this link </a>.
 
 Installation, functionality and documentation of `MoFEM` were independently verified by five open reviewers to satisfy the standards of the [Journal of Open Source Software](https://joss.theoj.org/papers/10.21105/joss.01441).
 
@@ -30,11 +30,11 @@ Installation, functionality and documentation of `MoFEM` were independently veri
     </div>
 </div>
 <div class="caption">
-    Examples of user modules implemented using <a href="http://mofem.eng.gla.ac.uk/mofem/">MoFEM </a>.
+    Examples of user modules implemented using <a href="https://mofem.eng.gla.ac.uk/mofem/">MoFEM </a>.
 </div>
 
 
-The core [developers](http://mofem.eng.gla.ac.uk/mofem/html/authors.html) of `MoFEM` identify the following list of unique features that distinguishes its library from competitors like [dealii](https://www.dealii.org/), [MFEM](https://mfem.org/), [libMesh](https://libmesh.github.io/), [FEniCS](https://fenicsproject.org/), [FreeFEM++](https://freefem.org/), [MOOSE](https://mooseframework.inl.gov/). This is not an exhaustive list but it shows what are the key strengths of `MoFEM`.
+The core [developers](https://mofem.eng.gla.ac.uk/mofem/html/authors.html) of `MoFEM` identify the following list of unique features that distinguishes its library from competitors like [dealii](https://www.dealii.org/), [MFEM](https://mfem.org/), [libMesh](https://libmesh.github.io/), [FEniCS](https://fenicsproject.org/), [FreeFEM++](https://freefem.org/), [MOOSE](https://mooseframework.inl.gov/). This is not an exhaustive list but it shows what are the key strengths of `MoFEM`.
 
 
 ### `MoFEM` features: 

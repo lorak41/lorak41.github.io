@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Mesh-Oriented
 middle_name: 
 last_name: Solutions
-email: karol.lewandowski@glasgow.ac.uk
+email: contact@mesh-oriented-solutions.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Mesh-Oriented Solutions - Advanced MoFEM Multiphysics Finite Element Simulation Consultancy
 # footer_text: >
@@ -64,10 +64,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 # github_username: lorak41
-bitbucket_username: karol41
+bitbucket_username: mofem
 gitlab_username: # your GitLab user name
-x_username: inz_KaroleL
-linkedin_username: karol-lewandowski-b07080b1
+# x_username: inz_KaroleL
+linkedin_username: mesh-oriented-solutions
 # scholar_userid: Yh62uqYAAAAJ
 # orcid_id: 0000-0002-3625-186X
 medium_username: # your Medium username
@@ -94,7 +94,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach us is via email or Twitter.
+  The best way to reach us is via email or LinkedIn.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
