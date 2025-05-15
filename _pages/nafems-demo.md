@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /nafems-demo
-title: "Link tree"
+title: "Cloud demo"
 # description: "We embed here MOS Augmented Reality Demo"
 # redirect: https
 ---

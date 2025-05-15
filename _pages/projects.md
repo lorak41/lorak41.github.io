@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of selected projects
+description: A collection of selected projects delivered by the founders of Mesh-Oriented Solutions
 nav: true
+order: 2
 # display_categories: [main, side, hobby, fun]
-display_categories: [Biomechanics & Applications, Industrial Technologies, Visualisation & Simulation Tools]
+display_categories: [Industrial Technologies, Biomechanics & Applications, Visualisation & Simulation Tools]
 horizontal: false
 ---
 
