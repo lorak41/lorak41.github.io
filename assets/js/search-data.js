@@ -11,17 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A collection of selected projects",
+          description: "A collection of selected projects delivered by the founders of Mesh-Oriented Solutions",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "selected publications authored by the founder of Mesh-Oriented Solutions.",
+        },{id: "nav-technology",
+          title: "technology",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/technology/";
           },
         },{id: "nav-people",
           title: "people",
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Selected publications authored by the founders of Mesh-Oriented Solutions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -476,11 +483,6 @@ ninja.data = [{
           description: "Interface for MFront code generator for MoFEM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mfront_interface/";
-            },},{id: "projects-mofem-modules-manager",
-          title: 'MoFEM modules manager',
-          description: "Generic interface for coupling MoFEM users modules",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/modules_manager/";
             },},{id: "projects-topology-optimisation",
           title: 'Topology optimisation',
           description: "MoFEM topology optimisation",
