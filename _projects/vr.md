@@ -9,15 +9,15 @@ category: Visualisation & Simulation Tools
 
 ### Innovations in VR and AR for Research Presentation
 
-Throughout my academic career, I practiced the development of `Virtual Reality (VR)` and `Augmented Reality (AR)` applications to enhance the presentation of my research. Here are some key highlights:
+Throughout his academic career, Karol practiced the development of `Virtual Reality (VR)` and `Augmented Reality (AR)` applications to enhance the presentation of his research. Here are some key highlights:
 
-- **Award-Winning AR Poster Presentation:** I won the best prize for a poster presentation where I incorporated `AR content` into my scientific poster. This innovative approach allowed viewers to access augmented reality content on any mobile device by scanning a `QR code`, a novel concept at the time.
+- **Award-Winning AR Poster Presentation:** Karol won the best prize for a poster presentation where he incorporated `AR content` into his scientific poster. This innovative approach allowed viewers to access augmented reality content on any mobile device by scanning a `QR code`, a novel concept at the time.
 
 - **Utilizing VR Headsets and Unity Game Engine:** Employing `VR headsets` from Facebook and the `Unity Game Engine` to create apps for presenting `finite element results`. These apps have been used in various settings, including conferences and meetings with industry partners. The visualization of finite element data in VR and AR posed a significant challenge due to the need for highly optimized and processed results. `Finite element data` are typically not suitable for straightforward visualization in these mediums.
 
-- **Innovative Mesh Processing and Postprocessing:** To overcome these challenges, I initiated advanced mesh processing routines and developed a method for postprocessing the `outer skin of FEA results`. This innovation significantly reduced the amount of data processing required, making it feasible to use these results in mobile devices with restrictive capacities.
+- **Innovative Mesh Processing and Postprocessing:** To overcome these challenges, Karol initiated advanced mesh processing routines and developed a method for postprocessing the `outer skin of FEA results`. This innovation significantly reduced the amount of data processing required, making it feasible to use these results in mobile devices with restrictive capacities.
 
-This work not only demonstrates my technical proficiency but also underscores my commitment to enhancing research accessibility and engagement through cutting-edge technologies.
+This work not only demonstrates MOS's technical proficiency but also underscores our commitment to enhancing research accessibility and engagement through cutting-edge technologies.
 
 
 

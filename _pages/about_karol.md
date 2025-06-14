@@ -1,4 +1,4 @@
-### **Dr Karol** Lewandowski
+### **Dr Karol Lewandowski**
 
 <!-- I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF).
 
@@ -13,4 +13,4 @@ As a `Research Software Engineer` and a co-founder of **Mesh-Oriented Solutions*
 
 My contributions include numerical frameworks utilized in various fields, including `biomechanics`, `nuclear energy` and `manufacturing` and more. Skilled in crafting powerful `Finite Element Method` codes, primarily using modern `C++`, I also leverage modern development tools and methodologies for optimal efficiency and scalability.
 
-My commitment is to provide innovative and effective numerical solutions, ensuring they meet the diverse and demanding needs. For a detailed overview of my professional background and project experience, please feel free to download my [Curriculum Vitae](/assets/pdf/Lewandowski_CVs.pdf).
+My commitment as the `Managing Director` of **Mesh-Oriented Solutions** is to provide innovative and effective numerical solutions, ensuring they meet the diverse and demanding needs. For a detailed overview of my professional background and project experience, please feel free to download my [Curriculum Vitae](/assets/pdf/Lewandowski_CVs.pdf).

@@ -1,29 +1,16 @@
 ---
 layout: page
 title: Fractures in nuclear graphite
-description: Work for EDF Energy
+description: Collaboration with EDF Energy and Jacobs/Amentum
 img: assets/img/projects/graphite_edf/edf_brick1.png
 importance: 1
 category: Industrial Technologies
 related_publications: true
 ---
 
-<!-- 
-    Although my PhD research was focused on bone fatigue fracture prevention, it has turned into contribution to assessing the structural integrity of nuclear power plants in the UK. I paused my PhD for three months to support project on modelling of fracture in irradiated graphite bricks in Advanced Gas-Cooled Reactors in collaboration with industrial partners (EDF Energy and Jacobs). I was responsible for extending the functionality of MoFEM to efficiently map the heterogeneous fields and improve the postprocessing, to enhance the code’s HPC capabilities. Furthermore, I gained experience in interaction with the industry through numerous technical sessions and progress meetings. I contributed to organisation of the two workshops at UofG in 2020 aimed at advising our partners in performing simulations using our code. Thanks to sustainable development practices adopted in the MoFEM team, our industrial partners were able to use novel technology to perform simulations required to support safety cases for the UK nuclear power plants’ operations. This work led to the submission of an impact case to REF2021 (The Research Excellence Framework).  
--->
+### UK Nuclear Power Plant Safety
 
-
-### Expanding PhD Research to Nuclear Power Plant Safety
-
-PhD research, initially focused on `bone fatigue fracture prevention`, has been uniquely applied to enhance the `structural integrity assessment` of `nuclear power plants` in the UK. Key highlights of this interdisciplinary application include {% cite athanasiadis2023computational %}:
-
-- **Industrial Collaboration:** Temporarily pausing my PhD to contribute to a project on modelling `fracture in irradiated graphite bricks` in `Advanced Gas-Cooled Reactors`. This project involved collaboration with `EDF Energy` and `Jacobs`.
-
-- **Extension of MoFEM:** Extending the functionality of `MoFEM`, developed during my PhD, to efficiently map `heterogeneous fields` and enhance `postprocessing` features for `High-Performance Computing (HPC)` capabilities.
-
-- **Industry Interaction:** Gaining valuable experience through technical sessions and progress meetings with `industrial partners`.
-
-- **Workshop Organization:** Organizing two workshops at the `University of Glasgow` in 2020, aimed at training partners in using our code for simulations.
+The team that founded Mesh-Oriented Solutions worked together successfully on developing MoFEM to meet the needs of the UK nuclear industry—EDF Energy and Jacobs/Amentum. The work focused on providing simulation capabilities to predict fracture in the cores of UK nuclear power plants. MoFEM delivered an advanced crack propagation simulation tool that predicted fractures far more accurately than any commercial or open-source code. EDF Energy commissioned two independent audits of MoFEM, in 2017 and 2019. Based on these, MoFEM was approved for use in safety cases supporting the continued operation of UK nuclear power plants. Since then, MoFEM has been used consistently by engineers at EDF Energy and Jacobs/Amentum. The work resulted in:
 
 - **Impact on Nuclear Safety:** Facilitating the use of novel technology for simulations supporting safety cases for the UK's `nuclear power plants` operations, thanks to sustainable development practices within the MoFEM team.
 
@@ -39,12 +26,23 @@ PhD research, initially focused on `bone fatigue fracture prevention`, has been 
     The simulated crack paths coincide very well with observed fractures in nuclear graphite
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/graphite_edf/srgw_validation.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Formation of debris: comparison between the experiment and MoFEM simulation {% cite athanasiadis2023computational %}
+</div>
+
+
 
 ---
 
 ### Configurational Mechanics in Heterogeneous Materials
 
-"Configurational Mechanics for Modelling Continuous Crack Propagation in Heterogeneous Materials" extends the principles of `configurational mechanics` to modelling `crack propagation` in `brittle`, `heterogeneous materials`. Key aspects of this work include:
+Accuracy and robustness of crack propagation in nuclear graphite were achieved by implementing a novel computational framework in MoFEM,  
+"Configurational Mechanics for Modelling Continuous Crack Propagation in Heterogeneous Materials" which extends the principles of `configurational mechanics` to modelling `crack propagation` in `brittle`, `heterogeneous materials`. Key aspects of this work include:
 
 - **Theoretical Basis:** Utilizing principles of `configurational mechanics`, based on the local form of the `first law of thermodynamics`, for establishing equilibrium conditions for the `crack front`.
 
@@ -58,7 +56,7 @@ PhD research, initially focused on `bone fatigue fracture prevention`, has been 
 
 - **Demonstration of Efficacy:** Validating the performance of this formulation through numerous `numerical simulations`, showcasing both accuracy and robustness.
 
-This research marks a significant contribution to both the fields of `engineering mechanics` and `nuclear safety`, demonstrating the versatility and impact of the methodologies developed during bone fracture research.
+This research marks a significant contribution to both the fields of `engineering mechanics` and `nuclear safety`, demonstrating the versatility and impact of the methodologies developed in MoFEM.
 
 
 <div class="row mt-3">
@@ -66,5 +64,16 @@ This research marks a significant contribution to both the fields of `engineerin
         {% include video.liquid path="assets/img/projects/graphite_edf/full_crack.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
+<div class="caption">
+    Primary crack propagation in nuclear graphite brick (MoFEM simulation)
+</div>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/img/projects/graphite_edf/SRGW_without_contact.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    </div>
+</div>
+<div class="caption">
+    Secondary crack propagation in graphite brick (MoFEM simulation)
+</div>
 
