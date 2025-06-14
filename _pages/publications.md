@@ -2,11 +2,11 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected publications authored by the founders of Mesh-Oriented Solutions.
+description: Selected publications authored by the founders of Mesh-Oriented Solutions demonstrating advanced applications of MoFEM
 
-years: [2023, 2022, 2021, 2020, 2019, 2017]
+# years: [2023, 2022, 2021, 2020, 2019, 2017]
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->

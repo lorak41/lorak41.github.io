@@ -9,7 +9,7 @@ img: assets/img/posts/magnetost_mf.png
 ---
 
 
-<a href="https://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a `C++` library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. `MoFEM` is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.
+<!-- <a href="https://mofem.eng.gla.ac.uk/mofem/">MoFEM</a> (Mesh-oriented Finite Element Method) is a `C++` library for managing complexities related to the finite element method (FEM). FEM is a widely used numerical approach for solving partial differential equations (PDEs) arising in various physical problems. `MoFEM` is developed to provide a finite element library incorporating modern approximation approaches and data structures for engineers, students and academics.
 
 
 `MoFEM` is an advanced open-source Finite Element (FE) libraries. The catalyst for the creation of `MoFEM` was the need for a flexible and numerically accurate modelling environment for multi-physics problems posed by our partners, including industry (EDF Energy, Jacobs, Advanced Forming Research Centre, etc).
@@ -52,5 +52,5 @@ The core [developers](https://mofem.eng.gla.ac.uk/mofem/html/authors.html) of `M
 <blockquote>
 ... all models are approximations. Essentially, all models are wrong, but some are useful.
     —Norman Draper
-</blockquote>
+</blockquote> -->
 

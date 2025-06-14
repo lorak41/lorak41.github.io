@@ -30,41 +30,29 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+#### About us
 
-<!-- Welcome to Mesh-Oriented Solutions, a consultancy specilising in implementation and deployment of advanced multiphysics simulations using open-source tools for research and industrial applications. 
-We support integration of state-of-the-art finite element technologies provided by `MoFEM` to solve challenging problems for manufacturing, aerospace, medical, energy and many more industries.
+**Mesh-Oriented Solutions (MOS)** is a University of Glasgow (Scotland, UK) spin-out specialising in the implementation and deployment of advanced multiphysics simulations. MOS delivers efficient, accurate solutions for complex engineering challenges and adapts to evolving computational demands.
 
-Mesh-Oriented Solutions is at the forefront of implementing and deploying cutting-edge multiphysics simulations. Leveraging open-source tools, we cater to both research and industrial sectors. Our expertise lies in integrating state-of-the-art finite element technologies, particularly through MoFEM, to address complex challenges across various industries. -->
+#### Industries we serve
+We develop robust finite element techniques to solve complex problems across various industries, including manufacturing, healthcare, automotive, aerospace, and energy. You can find more about our solutions to challenging problems on the [projects](/projects) page.
 
+#### Our technology
+Our technology is based on <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a>, a finite element engine developed at MOS and the University of Glasgow. It is validated and used by the UK nuclear industry (EDF Energy, Jacobs, Amentum) and the UK aerospace industry (Rolls-Royce). You can learn more about `MoFEM` capabilities on the [technology](/technology) page, and explore its academic applications and industrial on the [publications](/publications) page.
 
-<!-- #### About us -->
+#### Our services
 
-**Mesh-Oriented Solutions** specializes in the implementation and deployment of advanced multiphysics simulations using `open-source` tools. Our focus extends to both research and industrial sectors. We excel in integrating top-tier `finite element` technologies, particularly through `MoFEM`, to solve complex problems for a variety of industries.
+* `Custom simulation`: tailored implementations for specific requirements.
+* `Integration support`: seamless incorporation of `MoFEM` technologies into your systems.
+* `Training and workshops`: providing expertise in advanced simulation methods.
+* `Ongoing support and maintenance`: keeping your systems are always up-to-date and running efficiently.
 
-##### Industries we serve:
+#### Why choose Us?
 
-* `Manufacturing`: Improving design and production processes.
-<!-- * `Aerospace`: Innovating in safety and technology for flight. -->
-<!-- * `Nanoelectronics`: Simulation and modelling of novel electronic devices and materials -->
-* `Medical`: Advancing patient care with simulation-based solutions.
-* `Energy`: Assessing integrity of safety-critical structures.
-* ...and more.
+* `Expertise in open-source tools`: deep knowledge and experience with `MoFEM`. 
+* `Customized solutions:` focused on addressing your unique challenges. 
+* `Diverse industry experience`: a proven track record of success across multiple sectors. 
 
-##### Our services:
+#### Contact
 
-* `Custom Simulation`: Tailored implementations for specific requirements.
-* Integration Support: Streamlined `incorporation` of `MoFEM` technologies into your systems.
-* `Training` and `Workshops`: Providing expertise in `advanced simulation` methods.
-* Ongoing `Support` and Maintenance: Ensuring your systems are always `up-to-date` and efficient.
-
-##### Why choose Us?
-
-* Expertise in open-source tools: Deep knowledge and experience with `MoFEM`. 
-* Customized solutions: Focused on meeting your unique challenges. 
-* Diverse Industry Experience: A track record of success across various sectors. 
-
-Check out the [projects](/projects) page.
-
-## Contact
-
-
+You can contact us through the links below or email us using the addresses listed on the [people](/people) page.
