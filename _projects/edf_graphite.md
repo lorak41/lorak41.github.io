@@ -28,7 +28,7 @@ The team that founded Mesh-Oriented Solutions worked together successfully on de
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/graphite_edf/srgw_validation.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/graphite_edf/srgw_validation.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -70,7 +70,7 @@ This research marks a significant contribution to both the fields of `engineerin
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/graphite_edf/SRGW_without_contact.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+        {% include video.liquid path="assets/img/projects/graphite_edf/SRGW_chrome_safe.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
 <div class="caption">
