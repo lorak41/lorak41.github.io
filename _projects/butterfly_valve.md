@@ -29,8 +29,10 @@ By accurately modelling the valve’s behaviour, we can:
 These simulations not only `reduce prototyping costs`—they also `drive innovation` in valve design, ensuring `safety` and `efficiency` in `critical applications`.
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/butterfly_valve/vid12_padded.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+    <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+        <div style="width: 70%;">
+            {% include video.liquid path="assets/img/projects/butterfly_valve/vid12_padded.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+        </div>
     </div>
 </div>
 
