@@ -457,7 +457,7 @@ ninja.data = [{
           title: 'Automotive bushings',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/bushing/";
+              window.location.href = "/projects/bushings/";
             },},{id: "projects-sealing-technologies",
           title: 'Sealing technologies',
           description: "",
