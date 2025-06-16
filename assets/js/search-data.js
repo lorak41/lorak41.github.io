@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/technology/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Selected publications authored by the founders of Mesh-Oriented Solutions demonstrating advanced applications of MoFEM",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-people",
           title: "people",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Selected publications authored by the founders of Mesh-Oriented Solutions.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
           },
         },{id: "post-a-post-with-image-galleries",
       
@@ -453,6 +453,16 @@ ninja.data = [{
           description: "Advancing equine fracture risk prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bone_fracture/";
+            },},{id: "projects-automotive-bushings",
+          title: 'Automotive bushings',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bushing/";
+            },},{id: "projects-sealing-technologies",
+          title: 'Sealing technologies',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/butterfly_valve/";
             },},{id: "projects-cell-engineering",
           title: 'Cell engineering',
           description: "Developments for MiME group for Force Traction Microscopy",
@@ -460,7 +470,7 @@ ninja.data = [{
               window.location.href = "/projects/cell_engineering/";
             },},{id: "projects-fractures-in-nuclear-graphite",
           title: 'Fractures in nuclear graphite',
-          description: "Work for EDF Energy",
+          description: "Collaboration with EDF Energy and Jacobs/Amentum",
           section: "Projects",handler: () => {
               window.location.href = "/projects/edf_graphite/";
             },},{id: "projects-flow-forming",
@@ -490,7 +500,7 @@ ninja.data = [{
               window.location.href = "/projects/topology_optimisation/";
             },},{id: "projects-vr-and-ar",
           title: 'VR and AR',
-          description: "My Virtual Reality and Augmented Reality developments",
+          description: "Virtual Reality and Augmented Reality developments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vr/";
             },},{
