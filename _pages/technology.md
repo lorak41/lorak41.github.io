@@ -4,6 +4,7 @@ permalink: /technology/
 title: technology
 nav: true
 order: 4
+related_publications: true
 
 profiles:
   - align: right

@@ -4,7 +4,7 @@ permalink: /people/
 title: people
 # description: people behind the Mesh-Oriented Simulation
 nav: true
-nav_order: 3
+nav_order: 6
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -29,6 +29,14 @@ profiles:
     image: lukasz_image.jpg
     content: about_lukasz.md
     image_circular: true # crops the image to make it circular
+    more_info: >
+      <p style="font-size: 12px;"><a href="mailto:lukasz.kaczmarczyk@glasgow.ac.uk">lukasz.kaczmarczyk@glasgow.ac.uk</a> </p>
+  - align: left
+    image: chris_image.jpg
+    content: about_chris.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p style="font-size: 12px;"><a href="mailto:chris.pearce@glasgow.ac.uk">chris.pearce@glasgow.ac.uk</a> </p>
   # - align: right
   #   image: mofem_small_logo.png
   #   content: about_mofem.md

@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Mesh-Oriented
+first_name: Mesh-Oriented Solutions
 middle_name: 
-last_name: Solutions
+last_name: (MOS)
 email: contact@mesh-oriented-solutions.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Mesh-Oriented Solutions - Advanced MoFEM Multiphysics Finite Element Simulation Consultancy

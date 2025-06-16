@@ -12,15 +12,15 @@ category: Industrial Technologies
 
 At MoFEM, significant effort is devoted to implementing algorithms that solve multi-physics problems for solving large scale complex problems. These are essential for creating `scalable solvers` that maximize `HPC resources efficiency`, an imperative for the upcoming exascale computing era. The block structure of MoFEM facilitates the use of `scalable Krylov solvers` and `off-the-shelf scalable preconditioners` such as multigrid, additive Schwarz method, and block-Jacobi, among others.
 
-<!-- document the code -->
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/hpc/hpc_example.png" class="img-fluid rounded z-depth-1" zoomable=false %}
+<div class="row mt-3 justify-content-center">
+  <div class="col-auto">
+    <div style="width: 70%; margin: 0 auto;">
+      {% include figure.liquid path="assets/img/projects/hpc/hpc_example.png" class="img-fluid rounded z-depth-1" zoomable=false %}
     </div>
-    <div class="caption">
+  </div>
+</div>
+<div class="caption">
       Parallel partitions (left) and solution of shallow wave equation (right) on the Earth's surface, from the MoFEM shallow wave tutorial.
-    </div>
 </div>
 
 The `generic data structures` in MoFEM are tailored to power `efficient block solvers`, providing practical, hands-on examples to tackle real-world problems.
