@@ -9,7 +9,7 @@ related_publications: true
 ---
 
 
-Introducing a breakthrough in the field of manufacturing technology: our innovative research on Incremental Cold Flow Forming (ICFF). This project was supported by EPSRC ([EP/T008415/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1)) This cutting-edge approach revolutionizes the production of `axisymmetric components`, enhancing geometrical accuracy and material properties beyond traditional methods. High-quality, rotationally-symmetric, hollow engineering components are widely utilised by the aerospace, automotive and oil and gas sectors. 
+Introducing a breakthrough in the field of manufacturing technology: our innovative research on Incremental Cold Flow Forming (ICFF). This project was supported by EPSRC ([EP/T008415/1](https://gtr.ukri.org/projects?ref=EP%2FT008415%2F1)) This cutting-edge approach revolutionizes the production of `axisymmetric components`, enhancing geometrical accuracy and material properties beyond traditional methods. High-quality, rotationally-symmetric, hollow engineering components are widely utilised by the aerospace, automotive and oil and gas sectors. 
 This research tackles the complex challenges inherent in ICFF, such as extreme `plastic deformations`, `roller contact`, and `heat dissipation`, which have historically hindered effective simulation and industry adoption {% cite lewandowski2023multifield %}.
 
 <div class="row mt-3">
