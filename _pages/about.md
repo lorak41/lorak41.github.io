@@ -38,7 +38,7 @@ latest_posts:
 We develop robust finite element techniques to solve complex problems across various industries, including manufacturing, healthcare, automotive, aerospace, and energy. You can find more about our solutions to challenging problems on the [projects](/projects) page.
 
 #### Our technology
-Our technology is based on <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a>, a finite element engine developed at MOS and the University of Glasgow. It is validated and used by the UK nuclear industry (EDF Energy, Jacobs, Amentum) and the UK aerospace industry (Rolls-Royce). You can learn more about `MoFEM` capabilities on the [technology](/technology) page, and explore its academic applications and industrial on the [publications](/publications) page.
+Our technology is based on <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a>, a finite element engine developed at MOS and the University of Glasgow. It is validated and used by the UK nuclear industry (EDF Energy, Jacobs, Amentum) and the UK aerospace industry (Rolls-Royce). You can learn more about `MoFEM` capabilities on the [technology](/technology) page, and explore its academic and industrial applications on the [publications](/publications) page.
 
 #### Our services
 
