@@ -1,6 +1,6 @@
 ### **Dr Karol Lewandowski**
 
-<!-- I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T008415/1) on predictive modelling of Incremental Cold Flow Forming (ICFF).
+<!-- I am a Research Associate and a member of EPSRC-supported Glasgow Computational Engineering Centre ([GCEC](https://www.gla.ac.uk/research/az/gcec/)). Currently, I am working as PDRA in an [EPSRC project]() on predictive modelling of Incremental Cold Flow Forming (ICFF).
 
 My PhD project, supported by [Lord Kelvin and Adam Smith Scholarship](https://www.gla.ac.uk/research/ourresearchenvironment/prs/kelvinsmith/previouslyawardedkelvinsmithphdscholarships/201415projects/#d.en.359938,investigationoftheboneadaptationandfractureinthethirdmetacarpal(mciii)boneofthoroughbredracehorses-karollewandowski(lkasphdcandidate)), was focused on computational methods to predict and prevent musculoskeletal injury and fatality in the Thoroughbred racehorse. 
 
