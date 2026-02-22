@@ -46,7 +46,7 @@ directors:
 
 scientific_advisers:
   - align: left
-    image: vihar_image.jpg
+    image: vihar_image.png
     content: about_vihar.md
     image_circular: true # crops the image to make it circular
     more_info: >
