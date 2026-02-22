@@ -1,0 +1,6 @@
+### **Dr Christoph Naumann**
+
+I am a `Product Director` of **Mesh-Oriented Solutions**. I am a Mechanical Engineer working at the intersection of mechanics and software development, with a focus on end-to-end automation, high-performance design optimisation, and complex material physics. With more than a decade of industry experience, including leading an optimisation and automated engineering team at a global technology leader, I develop solutions where standard software reaches its limits.
+A key part of my work is turning advanced simulation and expert know-how into tools that are accessible to non-experts. This means building robust, automated engineering workflows that cover complete engineering processes from requirements to reliable, validated results, and finding pragmatic solutions for genuinely hard, industrial-scale problems.
+I specialise in efficient and robust optimisation methods as well as advanced material modelling, particularly nonlinear polymer behaviour.
+My work has significantly improved R&D efficiency and effectiveness. I hold various patents for products that far outperformed existing solutions. Furthermore, I have accelerated development speeds by reducing critical reporting from days to minutes and turning manual optimisation cycles that used to take weeks into fully automated overnight processes.

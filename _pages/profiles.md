@@ -6,7 +6,7 @@ title: people
 nav: true
 nav_order: 6
 
-profiles:
+directors:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
@@ -30,20 +30,26 @@ profiles:
     content: about_lukasz.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p style="font-size: 12px;"><a href="mailto:lukasz.kaczmarczyk@glasgow.ac.uk">lukasz.kaczmarczyk@glasgow.ac.uk</a> </p>
+      <p style="font-size: 12px;"><a href="mailto:lukasz@mesh-oriented-solutions.com">lukasz@mesh-oriented-solutions.com</a> </p>
   - align: left
+    image: christoph_image.jpg
+    content: about_christoph.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p style="font-size: 12px;"><a href="mailto:christoph@mesh-oriented-solutions.com">christoph@mesh-oriented-solutions.com</a> </p>
+  - align: right
     image: chris_image.jpg
     content: about_chris.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p style="font-size: 12px;"><a href="mailto:chris.pearce@glasgow.ac.uk">chris.pearce@glasgow.ac.uk</a> </p>
-  # - align: right
-  #   image: mofem_small_logo.png
-  #   content: about_mofem.md
-  #   image_circular: true # crops the image to make it circular
-    # more_info: >
-    #   <p>555 your office number</p>
-    #   <p>123 your address street</p>
-    #   <p>Your City, State 12345</p>
+
+scientific_advisers:
+  - align: left
+    image: vihar_image.jpg
+    content: about_vihar.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p style="font-size: 12px;"><a href="mailto:vihar.georgiev@glasgow.ac.uk">vihar.georgiev@glasgow.ac.uk</a> </p>
 ---
 <!-- here we will put people hired -->
