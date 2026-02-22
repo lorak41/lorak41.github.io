@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "Selected publications authored by the founders of Mesh-Oriented Solutions demonstrating advanced applications of MoFEM",
+          description: "Selected publications authored and theses supervised by the founders of Mesh-Oriented Solutions demonstrating advanced applications of MoFEM",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
