@@ -1,0 +1,34 @@
+{% assign profile = include.profile %}
+{% assign profile_content = include.content | markdownify %}
+{% assign profile_heading = profile_content | split: '</h3>' | first | append: '</h3>' %}
+{% assign profile_body = profile_content | remove_first: profile_heading %}
+{% assign profile_name = profile_heading | strip_html | strip %}
+{% if include.show_role %}
+  {% assign profile_role = profile_body | split: '</p>' | first | append: '</p>' %}
+  {% assign profile_body = profile_body | remove_first: profile_role %}
+{% endif %}
+
+<div class="person-profile clearfix">
+  <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+    {% if profile.image %}
+      {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+      {% if profile.image_circular %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+      {% else %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+      {% endif %}
+      {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 768px) 30vw, 180px{% endcapture %}
+      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_name %}
+    {% endif %}
+    {% if profile.more_info %}
+      <div class="more-info">{{ profile.more_info }}</div>
+    {% endif %}
+  </div>
+  <div class="profile-heading">
+    {{ profile_heading }}
+    {% if include.show_role %}
+      {{ profile_role }}
+    {% endif %}
+  </div>
+  <div class="profile-biography">{{ profile_body }}</div>
+</div>

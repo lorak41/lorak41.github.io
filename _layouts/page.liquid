@@ -27,7 +27,7 @@ layout: default
     {% endif %}
   </header>
 
-  <article>
+  <article{% if page.url contains '/projects/' %} class="business-prose"{% endif %}>
     {{ content }}
   </article>
 

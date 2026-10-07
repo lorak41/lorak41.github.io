@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Cell engineering
-description: Developments for MiME group for Force Traction Microscopy
+description: Identifying forces exerted by cells
 img: assets/img/projects/cell_engineering/cell_engineering.png
 importance: 3
 category: Biomechanics & Applications
+delivery: founding_team
 ---
 
 ### Methodology for Identifying Cell Forces: A Computational Approach
@@ -42,5 +43,5 @@ This work marks a significant advancement in the computational identification of
     </div>
 </div>
 <div class="caption">
-    Visulisation of cell forces
+    Visualisation of cell forces
 </div>

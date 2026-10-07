@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Ilizarov fixator system
-description: Collaboration in Orthopedic Innovation
+description: Bone fixation for limb reconstruction
 img: assets/img/projects/ilizarov/ilizarov1.png
 importance: 2
 category: Biomechanics & Applications
+delivery: founding_team
 images:
   compare: true
 ---
@@ -77,5 +78,3 @@ Our study, titled "`Finite Element Modelling of Tibial Defects Managed with a Fi
 <div class="caption">
     High Tibial Osteotomy Device prototype simulation, FEM mesh and results
 </div>
-
-

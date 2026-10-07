@@ -1,10 +1,11 @@
 ---
 layout: page
 title: HPC tailored solvers in MoFEM
-description: High Performance computing studies and optimisations
+description: Scalable solvers for large simulations
 img: assets/img/projects/hpc/hpc_example.png
 importance: 3
 category: Industrial Technologies
+delivery: founding_team
 ---
 
 
@@ -52,4 +53,3 @@ Below one can find interesting materials regarding HPC optimisations:
 - [Data locality](https://kaushikghose.wordpress.com/2020/01/30/cpu-caches-and-data-locality-a-small-demonstration/) 
 - [Small overview on single node optimisations for HPC](http://www.archer.ac.uk/training/courses/craytools/pdf/single-node-opt.pdf)
 - [Cachegrind tool tutorial](https://courses.cs.washington.edu/courses/cse326/05wi/valgrind-doc/cg_main.html)
-

@@ -3,20 +3,20 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      <h1 class="post-title cassius-font">
+    <h1 class="post-title cassius-font">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
         {% endif %}
-      </h1>
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
+  <article class="business-prose">
+    {% assign introduction = content | split: '</p>' | first | append: '</p>' %}
+    <div class="about-content">
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -27,17 +27,14 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          <swiper-container keyboard="true" navigation="false" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" loop="true"  autoplay='{"delay": 2000}'  speed="750" effect="" fadeEffect="false" spaceBetween="10" slidesPerView="1" centeredSlides="true" keyboard="true" navigation="true">
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/brick_img.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/bushing.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/butterfly_valve.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/mc3_image_b.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/ilizarov.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/cell_engineering2.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/flow_forming_simul.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/phase_field1.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/plasticity_tube_img.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
-            <swiper-slide>{% include figure.liquid  path="assets/img/images_for_slider/topology_bream.png" class="img-fluid rounded swiper-slide-image" %}</swiper-slide>
+          <swiper-container class="project-images" parallax="true" keyboard="true" navigation="false" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" loop="true" autoplay='{"delay": 2000}' speed="750" space-between="10" slides-per-view="1" centered-slides="true">
+            {% for slide in page.images.slides %}
+              {% assign slide_image_path = slide.image | prepend: 'assets/img/images_for_slider/' %}
+              <swiper-slide>
+                {% include figure.liquid path=slide_image_path class="img-fluid rounded swiper-slide-image" alt=slide.caption %}
+                <p class="project-caption" data-swiper-parallax-x="200%" data-swiper-parallax-opacity="0">{{ slide.caption | escape }}</p>
+              </swiper-slide>
+            {% endfor %}
           </swiper-container>
         {% endif %}
         {% if page.profile.more_info %}
@@ -46,7 +43,9 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="about-introduction">{{ introduction }}</div>
+      <div class="about-details clearfix">{{ content | remove_first: introduction }}</div>
+    </div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

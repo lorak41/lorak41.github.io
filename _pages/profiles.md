@@ -32,12 +32,6 @@ directors:
     more_info: >
       <p style="font-size: 12px;"><a href="mailto:lukasz@mesh-oriented-solutions.com">lukasz@mesh-oriented-solutions.com</a> </p>
   - align: left
-    image: christoph_image.jpg
-    content: about_christoph.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p style="font-size: 12px;"><a href="mailto:christoph@mesh-oriented-solutions.com">christoph@mesh-oriented-solutions.com</a> </p>
-  - align: right
     image: chris_image.jpg
     content: about_chris.md
     image_circular: true # crops the image to make it circular
@@ -45,11 +39,12 @@ directors:
       <p style="font-size: 12px;"><a href="mailto:chris.pearce@glasgow.ac.uk">chris.pearce@glasgow.ac.uk</a> </p>
 
 scientific_advisers:
-  - align: left
+  - align: right
     image: vihar_image.png
     content: about_vihar.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p style="font-size: 12px;"><a href="mailto:vihar.georgiev@glasgow.ac.uk">vihar.georgiev@glasgow.ac.uk</a> </p>
+
 ---
 <!-- here we will put people hired -->

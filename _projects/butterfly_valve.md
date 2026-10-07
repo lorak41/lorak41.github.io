@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Sealing technologies
-# description: Work for EDF Energy
+description: Valve seal deformation and contact
 img: assets/img/projects/butterfly_valve/butterfly_valve.png
 importance: 3
 category: Industrial Technologies
+delivery: mos
 related_publications: false
 ---
 
@@ -31,9 +32,7 @@ These simulations not only `reduce prototyping costs`—they also `drive innovat
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
         <div style="width: 70%;">
-            {% include video.liquid path="assets/img/projects/butterfly_valve/vid12_padded.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+            {% include video.liquid path="assets/img/projects/butterfly_valve/vid12_padded.mp4" poster="/assets/img/projects/butterfly_valve/vid12_padded.jpg" title="Butterfly valve seal deformation and contact simulation" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
         </div>
     </div>
 </div>
-
-

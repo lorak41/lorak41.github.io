@@ -1,10 +1,11 @@
 ---
 layout: page
 title: VR and AR
-description: Virtual Reality and Augmented Reality developments
+description: Immersive simulation visualisation
 img: assets/img/projects/visualisation_vr_ar/poster_image.png
 importance: 1
 category: Visualisation & Simulation Tools
+delivery: founding_team
 ---
 
 ### Innovations in VR and AR for Research Presentation
@@ -26,13 +27,13 @@ This work not only demonstrates MOS's technical proficiency but also underscores
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/poster_vid.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/poster_vid.mp4" poster="/assets/img/projects/visualisation_vr_ar/poster_vid.jpg" title="Scientific poster with augmented reality simulation" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/hand_track-ezgif.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/hand_track-ezgif.mp4" poster="/assets/img/projects/visualisation_vr_ar/hand_track-ezgif.jpg" title="Hand tracking in virtual reality" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/bone_manipulation.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true  %}
+        {% include video.liquid path="assets/img/projects/visualisation_vr_ar/bone_manipulation.mp4" poster="/assets/img/projects/visualisation_vr_ar/bone_manipulation.jpg" title="Manipulating a bone model in virtual reality" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
     </div>
 </div>
 <div class="caption">
@@ -68,10 +69,9 @@ This application of technical skills in a practical, educational context demonst
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/projects/3d_printing/skates_video-resize-video.mp4" max-width = "300px" class="img-fluid rounded z-depth-1" controls=true autoplay=false loop=true  %}
+        {% include video.liquid path="assets/img/projects/3d_printing/skates_video-resize-video.mp4" poster="/assets/img/projects/3d_printing/skates_video-resize-video.jpg" title="Inline skates combining numerical analysis and 3D printing" max-width = "300px" class="img-fluid rounded z-depth-1" controls=true autoplay=false loop=true %}
     </div>
 </div>
 <div class="caption">
     Combination of numerical analysis and 3D-printing to build inline skates
 </div>
-
