@@ -1,10 +1,11 @@
 ---
 layout: page
-title: bone remodeling & fracture
-description: Advancing equine fracture risk prediction
+title: Bone remodelling & fracture
+description: Bone adaptation and fracture risk
 img: assets/img/projects/bones/better_bone.png
 importance: 1
 category: Biomechanics & Applications
+delivery: founding_team
 related_publications: true
 ---
 
@@ -60,7 +61,7 @@ In this PhD project, a computational tool assessing `fracture risk` in horse rac
     </div>
 </div>
 <div class="caption">
-    Assesing fracture propoensity of bones with heterogeneous material properties using fracture mechanics
+    Assessing fracture propensity of bones with heterogeneous material properties using fracture mechanics
 </div>
 
 **Validation and Implications:** Through rigorous `numerical simulations`, including studies on equine metacarpal bones, the research validated the effectiveness of the developed framework. It demonstrated how `bone adaptation history` and `density distribution` critically influence `fracture resistance` and `crack paths`. These insights provide a novel framework for simulating changes in bone structure in response to exercise and quantifying `fracture likelihood`.

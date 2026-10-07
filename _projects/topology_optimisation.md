@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Topology optimisation
-description: MoFEM topology optimisation
+description: Material-efficient structural design
 img: assets/img/projects/topology/topology_1.png
 importance: 7
 category: Visualisation & Simulation Tools
+delivery: founding_team
 ---
 
 ## Advancements in Topology Optimization 
@@ -16,7 +17,7 @@ category: Visualisation & Simulation Tools
     </div>
 </div>
 <div class="caption">
-    Optimised shape of a cantiliever beam.
+    Optimised shape of a cantilever beam.
 </div>
 
 `Topology optimization` is a key mathematical method used in optimizing material distribution within a given domain to enhance structural performance. This research contributes to the field through:
@@ -40,6 +41,3 @@ This contribution simplifies the implementation of topological optimization and 
         {% include video.liquid path="assets/img/projects/topology/topology_vid2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
     </div>
 </div>
-
-
-

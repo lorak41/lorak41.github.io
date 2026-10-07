@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Fractures in nuclear graphite
-description: Collaboration with EDF Energy and Jacobs/Amentum
+description: Graphite fracture and reactor safety
 img: assets/img/projects/graphite_edf/edf_brick1.png
-importance: 1
+importance: 0
 category: Industrial Technologies
+delivery: founding_team
 related_publications: true
 ---
 
@@ -76,4 +77,3 @@ This research marks a significant contribution to both the fields of `engineerin
 <div class="caption">
     Secondary crack propagation in graphite brick (MoFEM simulation)
 </div>
-

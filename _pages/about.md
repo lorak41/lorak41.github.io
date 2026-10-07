@@ -1,9 +1,9 @@
 ---
 layout: about
-title: about
+title: services
 permalink: /
 # subtitle: MSc (Eng), PhD
-subtitle: Advanced <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a> Multiphysics Simulations Consultancy
+subtitle: <strong>High-confidence simulations for critical engineering decisions</strong>
 
 profile:
   align: right
@@ -14,6 +14,27 @@ profile:
   #   <p>G12 8LT, Glasgow</p>
 images:
   slider: true
+  slides:
+    - image: orthopaedic_surgery.png
+      caption: Orthopaedic surgery planning
+    - image: brick_img.png
+      caption: Predicting nuclear graphite fracture
+    - image: bushing.png
+      caption: Automotive parts optimisation
+    - image: composite_failure.png
+      caption: Predicting composite failure
+    - image: butterfly_valve.png
+      caption: Valve seal design
+    - image: mc3_image_b.png
+      caption: Bone fracture prediction
+    - image: ilizarov.png
+      caption: Bone fixation design
+    - image: flow_forming_simul.png
+      caption: Cold metal forming
+    - image: plasticity_tube_img.png
+      caption: Metal tube deformation
+    - image: topology_bream.png
+      caption: Topology optimisation
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -30,29 +51,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-#### About us
+**Mesh-Oriented Solutions**, a University of Glasgow spin-out, develops physics-based simulation tools that enable engineers and AI systems to solve complex manufacturing, failure analysis and design optimisation problems.
 
-**Mesh-Oriented Solutions (MOS)** is a University of Glasgow (Scotland, UK) spin-out specialising in the implementation and deployment of advanced multiphysics simulations. MOS delivers efficient, accurate solutions for complex engineering challenges and adapts to evolving computational demands.
+#### Reliability for AI-driven engineering
 
-#### Industries we serve
-We develop robust finite element techniques to solve complex problems across various industries, including manufacturing, healthcare, automotive, aerospace, and energy. You can find more about our solutions to challenging problems on the [projects](/projects) page.
+We believe critical engineering decisions need physics-based evidence that engineers can examine and trust. As AI expands design exploration and automation, reliable simulation becomes even more important.
 
-#### Our technology
-Our technology is based on <a href='https://mofem.eng.gla.ac.uk/'>MoFEM</a>, a finite element engine developed at MOS and the University of Glasgow. It is validated and used by the UK nuclear industry (EDF Energy, Jacobs, Amentum) and the UK aerospace industry (Rolls-Royce). You can learn more about `MoFEM` capabilities on the [technology](/technology) page, and explore its academic and industrial applications on the [publications](/publications) page.
+#### The MoFEM engine behind our tools
 
-#### Our services
+[MoFEM](https://mofem.eng.gla.ac.uk/) is the finite element engine developed by our founding team. Its mixed formulations, error estimation, automatic refinement and GPU scalability underpin our tools. Developing the engine lets us adapt its methods to customer problems and build reusable specialist modules. Explore our [technology](/technology), [projects](/projects/) and [publications](/publications).
 
-* `Custom simulation`: tailored implementations for specific requirements.
-* `Integration support`: seamless incorporation of `MoFEM` technologies into your systems.
-* `Training and workshops`: providing expertise in advanced simulation methods.
-* `Ongoing support and maintenance`: keeping your systems are always up-to-date and running efficiently.
+**EDF Energy** uses MoFEM, following independent audits, to model [nuclear graphite fracture](/projects/edf_graphite/) for reactor integrity assessments.
 
-#### Why choose Us?
+#### From first assessment to deployment
 
-* `Expertise in open-source tools`: deep knowledge and experience with `MoFEM`. 
-* `Customized solutions:` focused on addressing your unique challenges. 
-* `Diverse industry experience`: a proven track record of success across multiple sectors. 
+Our services start with a technical audit, followed by two deployment options: in your own environment or in the cloud.
+
+- **Technical audit:** assess fit and demonstrate our tools on your problem.
+- **Customer deployment:** specialist tools, automated workflows and AI interfaces in your environment.
+- **Cloud deployment:** scale simulation capacity as demand grows, without licence limits.
 
 #### Contact
 
-You can contact us through the links below or email us using the addresses listed on the [people](/people) page.
+Have an engineering challenge? We’d love to hear about it. Meet our [team](/people/) or email [contact@mesh-oriented-solutions.com](mailto:contact@mesh-oriented-solutions.com).

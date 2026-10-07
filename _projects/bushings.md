@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Automotive bushings
-# description: Work for EDF Energy
+description: Suspension noise and vibration
 img: assets/img/projects/bushings/stress.png
 importance: 3
 category: Industrial Technologies
+delivery: mos
 related_publications: false
 ---
 
@@ -24,10 +25,7 @@ In addition, we implemented `automatic contact self-detection`, enabling `robust
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
         <div style="width: 70%;">
-            {% include video.liquid path="assets/img/projects/bushings/stress_compressed.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true %}
+            {% include video.liquid path="assets/img/projects/bushings/stress_compressed.mp4" poster="/assets/img/projects/bushings/stress_compressed.jpg" title="Automotive bushing deformation and stress simulation" class="img-fluid rounded z-depth-1" controls=true autoplay=true muted=true loop=true %}
         </div>
     </div>
 </div>
-
-
-
