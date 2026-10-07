@@ -3,15 +3,15 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-services",
+    title: "services",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A collection of selected projects delivered by the founders of Mesh-Oriented Solutions",
+          description: "Explore projects we&#39;re delivering at Mesh-Oriented Solutions and earlier work by our founding team.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -46,17 +46,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-      
-        title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
     },{id: "post-a-post-with-tabs",
@@ -279,17 +268,6 @@ ninja.data = [{
           window.location.href = "/blog/2022/giscus-comments/";
         
       },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-      
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-        
-      },
     },{id: "post-digital-twins-in-mofem",
       
         title: "Digital Twins in MoFEM",
@@ -438,74 +416,69 @@ ninja.data = [{
           description: "A project with an introduction section",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-bone-remodeling-amp-fracture",
-          title: 'bone remodeling &amp;amp; fracture',
-          description: "Advancing equine fracture risk prediction",
+            },},{id: "projects-bone-remodelling-amp-fracture",
+          title: 'Bone remodelling &amp;amp; fracture',
+          description: "Bone adaptation and fracture risk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bone_fracture/";
             },},{id: "projects-automotive-bushings",
           title: 'Automotive bushings',
-          description: "",
+          description: "Suspension noise and vibration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bushings/";
             },},{id: "projects-sealing-technologies",
           title: 'Sealing technologies',
-          description: "",
+          description: "Valve seal deformation and contact",
           section: "Projects",handler: () => {
               window.location.href = "/projects/butterfly_valve/";
             },},{id: "projects-cell-engineering",
           title: 'Cell engineering',
-          description: "Developments for MiME group for Force Traction Microscopy",
+          description: "Identifying forces exerted by cells",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cell_engineering/";
+            },},{id: "projects-failure-in-composites-and-coatings",
+          title: 'Failure in composites and coatings',
+          description: "Cracking and interface separation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/coatings_indentation/";
             },},{id: "projects-fractures-in-nuclear-graphite",
           title: 'Fractures in nuclear graphite',
-          description: "Collaboration with EDF Energy and Jacobs/Amentum",
+          description: "Graphite fracture and reactor safety",
           section: "Projects",handler: () => {
               window.location.href = "/projects/edf_graphite/";
             },},{id: "projects-flow-forming",
           title: 'Flow forming',
-          description: "An integrated framework for fundamental understanding and process optimisation",
+          description: "Metal deformation in cold forming",
           section: "Projects",handler: () => {
               window.location.href = "/projects/flow_forming/";
             },},{id: "projects-hpc-tailored-solvers-in-mofem",
           title: 'HPC tailored solvers in MoFEM',
-          description: "High Performance computing studies and optimisations",
+          description: "Scalable solvers for large simulations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hpc_developments/";
             },},{id: "projects-ilizarov-fixator-system",
           title: 'Ilizarov fixator system',
-          description: "Collaboration in Orthopedic Innovation",
+          description: "Bone fixation for limb reconstruction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ilizarov_fixator/";
             },},{id: "projects-mfront-interface",
           title: 'MFront interface',
-          description: "Interface for MFront code generator for MoFEM",
+          description: "Advanced material models in MoFEM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mfront_interface/";
+            },},{id: "projects-orthopaedic-surgery-simulation",
+          title: 'Orthopaedic surgery simulation',
+          description: "Simulation for surgical planning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/orthopaedic_surgery/";
             },},{id: "projects-topology-optimisation",
           title: 'Topology optimisation',
-          description: "MoFEM topology optimisation",
+          description: "Material-efficient structural design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/topology_optimisation/";
             },},{id: "projects-vr-and-ar",
           title: 'VR and AR',
-          description: "Virtual Reality and Augmented Reality developments",
+          description: "Immersive simulation visualisation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vr/";
             },},{
